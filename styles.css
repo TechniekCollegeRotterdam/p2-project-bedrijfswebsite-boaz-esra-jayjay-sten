@@ -1,11 +1,9 @@
 @charset "UTF-8";
 
-body {
+* {
     margin: 0;
     padding: 0;
-
-    
-
+    box-sizing: border-box;
 }
 
 
@@ -17,21 +15,29 @@ body {
 
 .footer-web {
     display: flex;
-    background-color: grey;
-    bottom: 0;
-    margin: 0;
-    width: 100%;
+    background-color: rgb(59, 141, 255);
     position: fixed;
-    min-height: 8em;
-    padding-left: 2%;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    bottom: 0;
+    
+  
 }
 
+.footer-item1 {
+    display: flex;
+    padding-left: 2%;
+    
+   
 
+}
+.footer-item2 {
+    display: flex;
+    
+   
 
-
-
-
-
+}
 
 
 /* footer */
