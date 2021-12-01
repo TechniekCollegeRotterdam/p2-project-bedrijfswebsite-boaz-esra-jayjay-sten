@@ -13,9 +13,9 @@
 
 
 <body>
-    <header>
+    
         <?php include 'navbar.html'?>
-    </header>
+    
 
     <main class="main-contact">
 
