@@ -81,7 +81,7 @@
 /* navbar */
 
 .header {
-  background-color: rgb(141, 200, 236);
+  background-color: #0083c0;
   box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
   position: fixed;
   width: 100%;
@@ -231,7 +231,7 @@
   }
 
   .header {
-    background-color: rgb(141, 200, 236);
+    background-color:  #0083c0;
     box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
     position: fixed;
     width: 100%;
