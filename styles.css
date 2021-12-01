@@ -25,6 +25,10 @@
   padding-left: 2%;
 }
 
+.faxfooter {
+  color: red;
+}
+
 .mailto {
   color: red;
 }
@@ -175,6 +179,10 @@
     flex-direction: column;
   }
 
+  .faxfooter {
+    color: red;
+  }
+
   .mailto {
     color: red;
   }
@@ -234,8 +242,15 @@
   .contact-items {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     
    
+  }
+
+  .con-links {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
   }
 
 

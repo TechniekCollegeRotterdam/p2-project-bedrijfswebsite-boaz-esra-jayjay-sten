@@ -20,15 +20,22 @@
     <main class="main-contact">
         <section class="con-con">
             <section class="contact-items">
-            <h1>Contact us!</h1>
-            <P>Phone: +31 88 123 567 875</P>
-            <p>Email: Saturnus@helpdesk.com</p>
-            <p>Fax: 457-878-9056</p>
+                <h1>Contact us!</h1>
+                <P>Phone: +31 88 123 567 875</P>
+                <p>Email: Saturnus@helpdesk.com</p>
+                <p>Fax: 457-878-9056</p>
+
+
+                <section class="con-links">
+                    <a class="con-mailto" href="mailto:saturnus@helpdesk.com">Saturnus@helpdesk.com</a>
+                    <a class="con-tel" href="tel:+31-88-123-567-875">+31 88 123 567 875</a>
+
+                </section>
             </section>
 
 
-        </secti>
-     
+            </secti>
+
 
 
 
