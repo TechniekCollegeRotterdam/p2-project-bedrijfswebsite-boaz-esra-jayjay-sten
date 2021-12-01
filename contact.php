@@ -33,10 +33,11 @@
                 <a class="con-tel" href="tel:+31-88-123-567-875">+31 88 123 567 875</a>
 
             </section>
-            <section class="conimg">
+            
+        </section>
+        <section class="conimg">
                 <img class="helpimg" src="images/help.jpg">
             </section>
-        </section>
 
 
     

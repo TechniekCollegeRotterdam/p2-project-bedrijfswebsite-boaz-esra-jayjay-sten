@@ -19,6 +19,14 @@
 
 .conimg {
   display: none;
+  
+}
+.contact-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+ 
 }
 
 
@@ -283,8 +291,6 @@
   
   
   
-  
-  
   /* footer desktop */
 
   .con-info {
@@ -346,7 +352,7 @@
 
   .con-con {
     display: flex;
-    padding-top: 8%;
+    padding-top: 6%;
     padding-left: 2%;
     
     
@@ -370,6 +376,14 @@
   .conimg {
     display: flex;
     justify-content: right;
+    position: absolute;
+    padding-left: 2%;
+    padding-top: 2%;
+  }
+
+  .helpimg {
+    display: flex;
+  
   }
 
 
