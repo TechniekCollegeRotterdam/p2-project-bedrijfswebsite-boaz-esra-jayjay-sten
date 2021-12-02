@@ -16,12 +16,6 @@
 
 
 
-
-
-
-
-
-
 </body>
 <!-- hier include je de Footer -->
 <?php include 'footer.html'?>

@@ -1,0 +1,36 @@
+<nav class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <nav class="dropdown">
+    <button class="dropbtn">Producten
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <nav class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 2</a>
+    </nav>
+  </nav>
+  <nav class="dropdown">
+    <button class="dropbtn">Producten
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <nav class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 2</a>
+    </nav>
+  </nav>
+  <a href="#about">About</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</nav>
+
+<script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+</script>
