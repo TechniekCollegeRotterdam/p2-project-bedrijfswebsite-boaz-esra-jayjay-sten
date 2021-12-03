@@ -14,7 +14,7 @@
 
 <body>
     
-        <?php include 'navbar.html'?>
+        <?php include 'nav.html'?>
     
 
     <main class="main-contact">
