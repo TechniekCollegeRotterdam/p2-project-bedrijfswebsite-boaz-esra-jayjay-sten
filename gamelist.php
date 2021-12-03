@@ -13,7 +13,7 @@
 
   <?php include 'nav.html'?>
 
-  <main>
+  <main class="product-main">
 
 
     <!--Allemaal Producten-->

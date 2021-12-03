@@ -27,14 +27,20 @@
                 <p>Fax: 457-878-9056</p>
                 <a class="con-mailto" href="mailto:saturnus@helpdesk.com">Saturnus@helpdesk.com</a>
                 <a class="con-tel" href="tel:+31-88-123-567-875">+31 88 123 567 875</a>
+
+
                 <section class="conimg">
                     <img class="helpimg" src="images/help.jpg">
                 </section>
+
+
             </section>
 
 
 
         </section>
+
+
 
 
 

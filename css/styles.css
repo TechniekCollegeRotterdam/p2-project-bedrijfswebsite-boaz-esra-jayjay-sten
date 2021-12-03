@@ -190,10 +190,36 @@
   
   }
   /* footer */
+
+
+  /* producten */
+
+  .product-main {
+    padding-bottom: 85%;
+
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 
-/* contact page */
+
 
 
 
@@ -242,7 +268,7 @@
   .footer-web {
     display: flex;
     background-color: #0083c0;
-    position: relative;
+    position: fixed;
     align-items: center;
     width: 100%;
     bottom: 0;
@@ -270,7 +296,7 @@
 
   .con-con {
     display: flex;
-    padding-top: 6%;
+    padding-top: 4%;
     padding-left: 2%;
     
     
@@ -289,6 +315,17 @@
     display: flex;
     flex-direction: column;
     padding-top: 5%;
+  }
+
+
+
+
+
+  /* producten */
+
+  .product-main {
+    padding-bottom: 15%;
+
   }
 
   
