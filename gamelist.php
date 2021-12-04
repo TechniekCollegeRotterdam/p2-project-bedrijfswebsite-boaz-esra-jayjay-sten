@@ -7,20 +7,21 @@
   <link id="pagestyle" rel="stylesheet" type="text/css" href="css/styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
 </head>
 
 <body>
 
   <?php include 'nav.html'?>
 
-  <main>
+  <main class="product-main">
 
 
     <!--Allemaal Producten-->
 
     <section class="sectionprod">
       <article class="articleprod">
-        <h2>Grand Theft Auto V</h2>
+        <h2><a href="#">Grand Theft Auto V</a></h2>
         <img src="gameimg/GTAV.jpg" width="180px" height="280px" alt="GTAV">
         <p>Michael, een ex-bankovervaller met pensioen, leeft het goede leven in de villawijk Rockford Hills. Zijn
           vrouw
@@ -35,7 +36,7 @@
 
     <section class="sectionprod">
       <article class="articleprod">
-        <h2>Call of Duty: Vanguard</h2>
+        <h2><a href="#">Call of duty: Vanguard</a></h2>
         <img src="gameimg/vanguard.jpg" width="180px" height="280px" alt="Vanguard">
         <p>Strijd op alle fronten: voer luchtgevechten boven de Grote Oceaan, ga parachutespringen boven Frankrijk,
           verdedig Stalingrad met de precisie van een sluipschutter en beschiet oprukkende troepen in
@@ -48,7 +49,7 @@
 
     <section class="sectionprod">
       <article class="articleprod">
-        <h2>GTA - The Trilogy - The Definitive Edition</h2>
+        <h2><a href="#">GTA - The Trilogy - The Definitive Edition</a></h2>
         <img src="gameimg/GTATRIL.jpg" width="180px" height="280px" alt="GTA Trilogy">
         <p>Speel de genrebepalende klassiekers van de originele Grand Theft Auto Trilogy: Grand Theft Auto III, Grand
           Theft Auto: Vice City en Grand Theft Auto: San Andreas.<br><br> Geüpdatet voor een nieuwe generatie, nu met
@@ -62,7 +63,7 @@
 
     <section class="sectionprod">
       <article class="articleprod">
-        <h2>Persona 5 Royal</h2>
+        <h2><a href="#">Persona 5 Royal</a></h2>
         <img src="gameimg/Persona5.jpg" width="180px" height="280px" alt="Persona 5">
         <p>Trek het masker van Joker aan en word lid van de Phantom Thieves of Hearts. Breek los van de ketens van de
           moderne samenleving en organiseer overvallen om de geesten van de gecorrumpeerden te infiltreren en hen hun
@@ -77,7 +78,7 @@
 
     <section class="sectionprod">
       <article class="articleprod">
-        <h2>Taiko No Tatsujin: Drum Session (Compleet Set)</h2>
+        <h2><a href="#">Taiko No Tatsujin Drum Sessions</a></h2>
         <img src="gameimg/Taiko.jpg" width="200px" height="280px" alt="Taiko No Tatsujin">
         <p><b>Inport Product!</b> Geniet lekker thuis op de bank van de klassieke arcaderitmegame uit Japan! Speel met
           je eigen drum, volg de
@@ -98,7 +99,7 @@
 
     <section class="sectionprod">
       <article class="articleprod">
-        <h2>Microsoft Flight Simulator - Premium Edition</h2>
+        <h2><a href="#">Microsoft Flight Simulator 2020 Premium Edition</a></h2>
         <img src="gameimg/flightsim.jpg" width="180px" height="280px" alt="Flight Simulator">
         <p>Microsoft Flight Simulator voor PC is de volgende generatie van een van de meest geliefde
           simulatiefranchises. Deze vliegsimulator komt met een 80-pagina's tellend fysiek artbook!<br><br> Van lichte
@@ -111,7 +112,7 @@
 
     <section class="sectionprod">
       <article class="articleprod">
-        <h2>Hatsune Miku Future tone DX</h2>
+        <h2><a href="#">Hatsune Miku Future Tone DX</a></h2>
         <img src="gameimg/Miku.jpg" width="180px" height="280px" alt="Miku Future Tone">
         <p>'Verken de eindeloze wereld van Hatsune Miku met de meest uitgebreide Project DIVA game die ooit is
           uitgebracht!
@@ -125,7 +126,7 @@
 
     <section class="sectionprod">
       <article class="articleprod">
-        <h2>Pokémon Brilliant Diamond</h2>
+        <h2><a href="#">Pokémon Brilliant Diamond</a></h2>
         <img src="gameimg/pokemon.jpg" width="180px" height="280px" alt="Briliant Diamond">
         <p>De avonturen in Pokémon Brilliant Diamond en Pokémon Shining Pearl vinden plaats in Sinnoh. Dit natuurrijke
           gebied met Mount Coronet in het hart is een land waar vele mythen hun oorsprong vinden.<br> Op je reis bezoek
@@ -142,7 +143,7 @@
 
     <section class="sectionprod">
       <article class="articleprod">
-        <h2>Forza Horizon 5 Premium Edition Digitale Code</h2>
+        <h2><a href="#">Forza Horizon 5 Premium Edition Digitale Code</a></h2>
         <img src="gameimg/Forza.jpg" width="180px" height="280px" alt="Horizon 5">
         <p>Jouw Horizon-avontuur.<br>
           Leid adembenemende expedities door de levendige en steeds veranderende open landschappen van Mexico met
@@ -157,7 +158,7 @@
 
     <section class="sectionprod">
       <article class="articleprod">
-        <h2>Battlefield 2042</h2>
+        <h2><a href="#">Battlefield 2042</a></h2>
         <img src="gameimg/BF.jpg" width="180px" height="280px" alt="Miku Future Tone">
         <p>Battlefield™ 2042 is een first-person shooter waarin je terugkeert naar de iconische grootschalige
           oorlogsvoering van de franchise.<br> In een wereld uit de nabije toekomst die is getransformeerd door wanorde
