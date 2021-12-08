@@ -22,7 +22,7 @@
     <section class="sectionprod">
       <article class="articleprod">
         <h2><a href="#">Asus TUF FX503-VD</a></h2>
-        <img src="gameimg/GTAV.jpg" width="180px" height="280px" alt="GTAV">
+        <img src="laptops-img/fx.jpg" width="280px" height="260px" alt="asus fx">
         <p>De Asus FX503VD-DM214T neem je mee naar LAN parties om games als Overwatch op hoge instellingen te spelen.<br>
              Daar heeft de NVIDIA GeForce GTX 1050 videokaart de grafische kracht voor. Met een gewicht van 2,5 kg en een dikte van 2,5 cm neem je de FX503VD-DM214T
               voor een gaming laptop makkelijk met je mee.<br> Het toetsenbord is rood verlicht en heeft een anti-ghosting functie met N-key rollover. Zo reageert het<br>
@@ -36,7 +36,7 @@
     <section class="sectionprod">
       <article class="articleprod">
         <h2><a href="#">Lenovo Legion 5</a></h2>
-        <img src="gameimg/vanguard.jpg" width="180px" height="280px" alt="Vanguard">
+        <img src="laptops-img/legion.jpg" width="280px" height="260px" alt="Legion 5">
         <p>De Legion 5 Pro is ontworpen om verwoesting binnen en buiten de arena te veroorzaken en maakt gebruik van AMD Ryzen™-processors en een NVIDIA® GeForce RTX™ 
             grafische kaart
              voor games met een hoge resolutie.<br>
@@ -51,7 +51,7 @@
     <section class="sectionprod">
       <article class="articleprod">
         <h2><a href="#">Microsoft surface GO</a></h2>
-        <img src="gameimg/GTATRIL.jpg" width="180px" height="280px" alt="GTA Trilogy">
+        <img src="laptops-img/go.jpg" width="270px" height="260px" alt="Surface go">
         <p>De Microsoft Surface Go 3 - 8 GB - 128 GB gebruik je als laptop én als tablet voor simpele taken als verslagen typen en surfen op het internet.<br>
              Door 8 gigabyte werkgeheugen heb je geen last van vastlopers terwijl je in meerdere internet tabbladen of Word vensters tegelijkertijd werkt.<br>
               Met een gewicht van iets meer dan een halve kilogram neem je hem mee in een tas en check je onderweg je mail of kijk je een Netflix serie.<br>
