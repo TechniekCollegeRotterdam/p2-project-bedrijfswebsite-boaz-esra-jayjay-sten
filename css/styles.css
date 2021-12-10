@@ -224,7 +224,12 @@
   
 
 
-
+ 
+  .product-img {
+    height: 60px;
+  }
+    
+  
 
   
 
@@ -380,19 +385,23 @@
   .phonephp {
     padding-top: 2%;
     padding-left: 15%;
+    margin-bottom: 15%;
     
   }
 
   /* laptops */
 
   .laptopphp {
-    margin-bottom: 12%;
+    margin-bottom: 20%;
     padding-left: 15%;
     padding-top: 2%;
   }
 
  
-
+.product-img {
+  height: 100px;
+ 
+}
   
 
 
