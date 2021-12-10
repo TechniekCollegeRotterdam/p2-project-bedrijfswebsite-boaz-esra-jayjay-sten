@@ -9,6 +9,13 @@
         
     </head>
     <body>
+        <script>
+            function swapStyleSheet(sheet) {
+                document.getElementById('pagestyle').setAttribute('href', sheet);
+            }
+        </script>
+
+
         <footer class="footer-web">
             <section class="flex-footer">
                 <section class="footer-item1">
@@ -23,7 +30,7 @@
                 <section class="radio-btn">
                     <input type="radio" name="style" onclick="swapStyleSheet('styles.css')">Lightmode</input>
     
-                     <input type="radio" name="style" onclick="swapStyleSheet('dark.css')">Nightmode</input>
+                     <input type="radio" name="style" onclick="swapStyleSheet('night.css')">Nightmode</input>
                     </section>
                 <section class="footer-item2">
                     
