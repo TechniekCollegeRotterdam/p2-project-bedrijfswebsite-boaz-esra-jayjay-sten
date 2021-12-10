@@ -19,7 +19,7 @@
     <?php include 'nav.html'?>
 
 
-    <main class="main-contact">
+    <main class="product-main">
 
         <section class="con-con">
             <section class="contact-items">

@@ -182,7 +182,7 @@
   .footer-web {
     display: flex;
     background-color: #0083c0;
-    position: fixed;
+    position: relative;
     justify-content: space-between;
     align-items: center;
     width: 100%;
@@ -214,19 +214,19 @@
 
   }
 
+  /* phones */
+
+  .phonephp {
+    padding-top: 5%;
+    padding-left: 3%;
+  }
 
   
 
 
 
 
-
-
-
-
-
-
-
+  
 
 
 
@@ -370,6 +370,18 @@
   }
 
   /* index */
+
+
+
+
+
+  /* phones */
+
+  .phonephp {
+    padding-top: 2%;
+    padding-left: 15%;
+    
+  }
 
  
 
