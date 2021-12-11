@@ -16,7 +16,7 @@
 
     <?php include 'nav.html'?>
 
-    <main class="phone-main">
+    <main class="result-page">
 
         <section class="phonephp">
 
