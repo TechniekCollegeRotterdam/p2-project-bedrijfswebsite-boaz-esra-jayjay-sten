@@ -375,13 +375,31 @@
 
   .phonephp {
     padding-top: 2%;
-    padding-left: 15%;
+    padding-left: 5%;
+    padding-right: 2%;
     
   }
 
  
+  /* searchbar */
 
-  
+  .searchbar {
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 0.75%;
+  }
+
+  /* laptops */
+
+  .laptopphp {
+
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 2%;
+    
+
+  }
+   
 
 
 

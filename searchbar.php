@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -18,12 +20,11 @@
 
         <section class="phonephp">
 
-    
-     <?php
+        <?php
      // leg verbinding met database
      require_once("dbconnsaturnus.php");
 
-     $query = $db->prepare("SELECT * FROM products WHERE type = 'phone'");
+     $query = $db->prepare("SELECT * FROM products WHERE name LIKE '%".$_POST['search']."%'");
      $query->execute();
      $resultq = $query->fetchAll(PDO::FETCH_ASSOC);
 
@@ -32,8 +33,7 @@
 
         echo "<fieldset></fieldset>";
 
-
-
+        
          echo "manufacturer: " . $data["manufacturer"];
          echo "<br>";
          echo "brand : " . $data["brand"];
@@ -51,6 +51,9 @@
 
     ?>
 
+    
+     
+
         </section>
 
 
@@ -64,3 +67,38 @@
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
