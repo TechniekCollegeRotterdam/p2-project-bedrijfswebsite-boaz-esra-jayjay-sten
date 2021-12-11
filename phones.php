@@ -18,6 +18,8 @@
 
         <section class="phonephp">
 
+        
+
     
      <?php
      // leg verbinding met database
@@ -28,11 +30,14 @@
      $resultq = $query->fetchAll(PDO::FETCH_ASSOC);
 
      foreach ($resultq as $data) {
-        $model = $data["model"];
-        $url = strtolower($model);
-        $url = preg_replace("/[^a-z0-9\s-]/", "", $url);
-        $url = preg_replace("/[\s-]+/", " ", $url);
-        $url = preg_replace("/[\s]/", "-", $url); 
+
+        echo "<fieldset></fieldset>";
+       
+         $model = $data["model"];
+         $url = strtolower($model);
+         $url = preg_replace("/[^a-z0-9\s-]/", "", $url);
+         $url = preg_replace("/[\s-]+/", " ", $url);
+         $url = preg_replace("/[\s]/", "-", $url); 
 
          echo "manufacturer: " . $data["manufacturer"];
          echo "<br>";
@@ -40,18 +45,22 @@
          echo "<br>";
          echo "model : " . $data["model"];
          echo "<br>";
-         echo "price : " . $data["price"] . "$";
+         echo "price : " . "$" . $data["price"];
          echo "<br>";
          echo "<img src=\"phone-imgs/" . $url . ".jpg\" class=\"product-img\">";
          echo "<br>";
+         echo "<br>";  
          echo "<br>";
+
+         
+        
          
          
      }
 
-
     ?>
 
+    
         </section>
 
 

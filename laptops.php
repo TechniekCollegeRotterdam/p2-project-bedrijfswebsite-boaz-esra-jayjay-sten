@@ -27,12 +27,20 @@
      $query->execute();
      $resultq = $query->fetchAll(PDO::FETCH_ASSOC);
 
+
+
      foreach ($resultq as $data) {
+
+        echo "<fieldset></fieldset>";
+
+
+
         $model = $data["model"];
         $url = strtolower($model);
         $url = preg_replace("/[^a-z0-9\s-]/", "", $url);
         $url = preg_replace("/[\s-]+/", " ", $url);
         $url = preg_replace("/[\s]/", "-", $url); 
+   
          echo "manufacturer: " . $data["manufacturer"];
          echo "<br>";
          echo "brand : " . $data["brand"];
@@ -47,11 +55,12 @@
          echo "<br>";
          echo "disk : " . $data["space"];
          echo "<br>";
-         echo "price : " . $data["price"] . "$";
+         echo "price : " . "$" . $data["price"];
          echo "<br>";
          echo "<img src=\"laptop-imgs/" . $url . ".jpg\" class=\"product-img\">";
          echo "<br>";
          echo "<br>";
+     
          
          
      }
