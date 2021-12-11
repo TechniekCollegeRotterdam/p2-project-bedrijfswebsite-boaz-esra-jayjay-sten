@@ -410,6 +410,28 @@
   
 
 
+/* searchbar */
+
+.search-bar {
+  display: flex;
+  position: absolute;
+  margin-left: 35%;
+  margin-top: 0.75%;
+  
+  
+}
+
+input[type=text] {
+  border-radius: 10px;
+  border-style: none;
+}
+
+button[type=submit] {
+  background: rgb(174, 225, 250);  
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+}
 
 
 
