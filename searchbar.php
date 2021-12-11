@@ -32,8 +32,12 @@
 
 
         echo "<fieldset></fieldset>";
-
-        
+        echo "title: " . $data["name"];
+        echo "<br>";
+        echo "genre: " . $data["genre"];
+        echo "<br>";
+        echo "released: " . $data["releasedate"];
+        echo "<br>";
          echo "manufacturer: " . $data["manufacturer"];
          echo "<br>";
          echo "brand : " . $data["brand"];
