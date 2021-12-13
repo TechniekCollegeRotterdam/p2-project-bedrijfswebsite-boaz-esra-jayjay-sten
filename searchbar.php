@@ -25,7 +25,7 @@
      require_once("dbconnsaturnus.php");
 
      $query = $db->prepare("SELECT * FROM products WHERE name LIKE '%".$_POST['search']."%' OR genre LIKE '%".$_POST['search']."%' OR type LIKE '%".$_POST['search']."%' OR 
-     manufacturer LIKE '%".$_POST['search']."%'  ");
+     manufacturer LIKE '%".$_POST['search']."%' OR processor LIKE '%".$_POST['search']."%' ");
      $query->execute();
      $resultq = $query->fetchAll(PDO::FETCH_ASSOC);
 
@@ -44,6 +44,14 @@
          echo "brand : " . $data["brand"];
          echo "<br>";
          echo "model : " . $data["model"];
+         echo "<br>";
+         echo "cpu: " . $data["processor"];
+         echo "<br>";
+         echo "graphicscard: " . $data["graphicscard"];
+         echo "<br>";
+         echo "ram: " . $data["memory"];
+         echo "<br>";
+         echo "disk: " . $data["space"];
          echo "<br>";
          echo "price : " . $data["price"] . "$";
          echo "<br>";
