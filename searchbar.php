@@ -24,20 +24,21 @@
      // leg verbinding met database
      require_once("dbconnsaturnus.php");
 
-     $query = $db->prepare("SELECT * FROM products WHERE name LIKE '%".$_POST['search']."%' OR genre LIKE '%".$_POST['search']."%' ");
+     $query = $db->prepare("SELECT * FROM products WHERE name LIKE '%".$_POST['search']."%' OR genre LIKE '%".$_POST['search']."%' OR type LIKE '%".$_POST['search']."%' OR 
+     manufacturer LIKE '%".$_POST['search']."%'  ");
      $query->execute();
      $resultq = $query->fetchAll(PDO::FETCH_ASSOC);
 
      foreach ($resultq as $data) {
 
 
-        echo "<fieldset></fieldset>";
-        echo "title: " . $data["name"];
-        echo "<br>";
-        echo "genre: " . $data["genre"];
-        echo "<br>";
-        echo "released: " . $data["releasedate"];
-        echo "<br>";
+         echo "<fieldset></fieldset>";
+         echo "title: " . $data["name"];
+         echo "<br>";
+         echo "genre: " . $data["genre"];
+         echo "<br>";
+         echo "released: " . $data["releasedate"];
+         echo "<br>";
          echo "manufacturer: " . $data["manufacturer"];
          echo "<br>";
          echo "brand : " . $data["brand"];
