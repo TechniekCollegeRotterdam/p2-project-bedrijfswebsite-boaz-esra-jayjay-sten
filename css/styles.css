@@ -288,7 +288,7 @@
   .footer-web {
     display: flex;
     background-color: #0083c0;
-    position: sticky;
+    
    max-height: 20vh;
    margin-top: auto;
    position: fixed;
