@@ -221,7 +221,11 @@
     padding-left: 3%;
   }
 
-  
+  /* searchbar mobile */
+
+  .searchbar {
+    display: none;
+  }
 
 
 
