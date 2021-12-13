@@ -30,7 +30,6 @@
 
       echo "<fieldset></fieldset>";
 
-
          echo "manufacturer: " . $data["manufacturer"];
          echo "<br>";
          echo "brand : " . $data["brand"];
@@ -48,10 +47,7 @@
          echo "price : " . $data["price"] . "$";
          echo "<br>";
          echo "<br>";
-         echo "<br>";
         
-         
-         
      }
 
 

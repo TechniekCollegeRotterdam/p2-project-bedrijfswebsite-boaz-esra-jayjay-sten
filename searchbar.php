@@ -24,7 +24,7 @@
      // leg verbinding met database
      require_once("dbconnsaturnus.php");
 
-     $query = $db->prepare("SELECT * FROM products WHERE name LIKE '%".$_POST['search']."%'");
+     $query = $db->prepare("SELECT * FROM products WHERE name LIKE '%".$_POST['search']."%' OR genre LIKE '%".$_POST['search']."%' ");
      $query->execute();
      $resultq = $query->fetchAll(PDO::FETCH_ASSOC);
 
