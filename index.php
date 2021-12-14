@@ -15,6 +15,10 @@
   <?php include 'nav.html'?>
 
   <main class="product-main">
+  <form class="searchbar-mobile" method="post" action="searchbar.php">
+      <input type="text" placeholder="search..." name="search">
+      <button type="submit" value="search">search</button>
+    </form>
     
 
     

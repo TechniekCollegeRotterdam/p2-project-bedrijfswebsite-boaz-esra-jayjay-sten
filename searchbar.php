@@ -17,6 +17,10 @@
     <?php include 'nav.html'?>
 
     <main class="result-page">
+    <form class="searchbar-mobile" method="post" action="searchbar.php">
+      <input type="text" placeholder="search..." name="search">
+      <button type="submit" value="search">search</button>
+    </form>
 
         <section class="phonephp">
 

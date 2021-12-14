@@ -229,6 +229,30 @@
     display: none;
   }
 
+  .searchbar-mobile {
+    display: flex;
+   margin-top: 5px;
+   justify-content: center;
+  }
+
+  /* laptops */
+
+  .laptopphp {
+    padding-top: 5%;
+    padding-left: 3%;
+
+
+  }
+
+  /* resultpage */
+
+  .result-page {
+    height: 100%;
+    margin-bottom: 80%;
+    padding-right: 2%;
+  }
+
+
 
 
 
@@ -397,6 +421,10 @@
     position: absolute;
     margin-left: 40%;
     margin-top: 0.75%;
+  }
+
+  .searchbar-mobile {
+    display: none;
   }
 
   /* laptops */
