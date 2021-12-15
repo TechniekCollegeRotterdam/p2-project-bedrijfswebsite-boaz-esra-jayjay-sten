@@ -39,7 +39,7 @@
          echo "<br>";
          echo "released: " . $data["releasedate"];
          echo "<br>";
-         echo "price: " . $data["price"] . "$";
+         echo "price: " . "$" . $data["price"];
          echo "<br>";
          echo "<br>";
          echo "<br>";
