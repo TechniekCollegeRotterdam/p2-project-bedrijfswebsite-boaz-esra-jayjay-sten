@@ -41,6 +41,16 @@
          echo "<br>";
          echo "price: " . "$" . $data["price"];
          echo "<br>";
+         $name = $data["model"];
+         // Make lower case
+         $url = strtolower($name);
+         //Make alphanumeric
+         $url = preg_replace("/[^a-z0-9\s-]/", "", $url);
+        //Clean up multiple dashes or whitespaces
+        $url = preg_replace("/[\s-]+/", " ", $url);
+        //Convert whitespaces and underscore to dash
+        $url = preg_replace("/[\s]/", "-", $url);
+        echo "<img src=\"images/" . $url . ".jpg\" alt=\"" . $name . "\">";
          echo "<br>";
          echo "<br>";
          

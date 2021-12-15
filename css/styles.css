@@ -146,6 +146,11 @@
     border-style: none;
     padding-top: 2%;
   }
+
+  /* productimg */
+  img {
+    height: 80px;
+  }
   
   
   

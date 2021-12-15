@@ -55,7 +55,7 @@
         $url = preg_replace("/[\s-]+/", " ", $url);
         //Convert whitespaces and underscore to dash
         $url = preg_replace("/[\s]/", "-", $url);
-        echo "<img src=\"phone-img/" . $url . ".jpg\" alt=\"" . $name . "\">";
+        echo "<img src=\"images/" . $url . ".jpg\" alt=\"" . $name . "\">";
          echo "<br>";
          echo "<br>";
          
