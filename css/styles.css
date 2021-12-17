@@ -458,7 +458,7 @@
     position: relative;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: flex-end;
     border-style: solid;
     border-color: #0083C0;
