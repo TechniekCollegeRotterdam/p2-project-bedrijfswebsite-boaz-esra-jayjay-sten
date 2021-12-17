@@ -31,8 +31,7 @@
      foreach ($resultq as $data) {
 
       echo "<fieldset></fieldset>";
-
-
+         
          echo "title: " . $data["name"];
          echo "<br>";
          echo "genre: " . $data["genre"];
