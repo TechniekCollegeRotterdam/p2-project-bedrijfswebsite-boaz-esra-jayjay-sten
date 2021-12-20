@@ -240,6 +240,7 @@
     display: flex;
    margin-top: 5px;
    justify-content: center;
+  
   }
 
   /* laptops */
@@ -258,6 +259,48 @@
     margin-bottom: 80%;
     padding-right: 2%;
   }
+
+  /* klachten */
+  .klachtform {
+    display: flex;
+    flex-direction: column;
+    padding-right: 60%;
+  }
+
+  .names {
+    padding-bottom: 5%;
+  }
+
+  .email {
+    padding-bottom: 5%;
+  }
+
+  .telform {
+    padding-bottom: 3%;
+  }
+
+  .submit-reset {
+    padding-top: 3%;
+  }
+
+  .titleklacht {
+    padding-top: 4%;
+  }
+
+  /* index */
+
+  .index-sold {
+    padding-left: 2%;
+    margin-bottom: 30%;
+  }
+
+  .saturn-logo {
+    display: flex;
+    justify-content: center;
+  }
+
+
+
 
 
 
@@ -283,6 +326,10 @@
 
 /* Responsive layout  desktop */
 @media screen and (min-width: 601px) {
+
+  h1 {
+    font-size: 2em;
+  }
  
   body {
     margin: 0;
@@ -388,6 +435,8 @@
     width: 100%;
   }
 
+
+  
  
   
 
@@ -486,6 +535,31 @@
       padding-right: 5%;
   }
 
+
+  /* klachten */
+
+  .klachtform {
+    display: flex;
+    flex-direction: column;
+    padding-right: 60%;
+    padding-top: 5%;
+  }
+
+  .names {
+    padding-bottom: 5%;
+  }
+
+  .email {
+    padding-bottom: 5%;
+  }
+
+  .telform {
+    padding-bottom: 3%;
+  }
+
+  .submit-reset {
+    padding-top: 3%;
+  }
 
 
 
