@@ -13,7 +13,7 @@
 </head>
 
 <body>
-
+<!--PHP INCLUDE zorgt dat onze footer en navbar op elke pagina hetzelfde staat!-->
     <?php include 'nav.html'?>
 
     <main class="result-page">
