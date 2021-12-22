@@ -27,31 +27,27 @@
 
 
 
-        <h1 class="titelklacht">File a complaint</h1>
+        <h1 class="titelklacht">Your feedback</h1>
 
 
-        <form class="klachtform" id="comform" method="post" action="klachtresult.php">
+        <form class="klachtform" id="comform" method="post" action="feedbackresult.php">
 
             <section class="names">
                 <label name="name">Firstname *</label>
                 <input type="text" placeholder="John" required name="fname">
-            </section>
-            <section class="names">
+              </section>
+              <section class="names">
                 <label name="name">Lastname *</label>
                 <input type="text" placeholder="Doe" required name="lname">
             </section>
-            <section class="email">
+            <section class="emails">
                 <label name="mail">Email *</label>
                 <input type="mail" placeholder="Someone@123.com" required name="mail">
             </section>
-            <section class="telform">
-                <label name="tel">Tel *</label>
-                <input type="tel" placeholder="+31 6 123456789" required name="tel">
-            </section>
 
-            <p>Write your complaint down below.</p>
+            <p>Give your feedback.</p>
 
-            <textarea form="comform" name="comment" placeholder="Explain your complaint here" required rows="4"
+            <textarea form="comform" name="comment" placeholder="feedback here. " required rows="4"
                 cols="50"></textarea>
 
             <section class="submit-reset">

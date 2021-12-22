@@ -49,8 +49,18 @@
                     <P class="titelklacht">Don't worry! You can send a complaint here!</P>
                     <a href="klacht.php">File a complaint</a>
                 </section>
+                <section class="klacht">
+                    <h2 class="titelklacht">Feedback on our website</h2>
 
+                    <P class="titelklacht">We want to improve!</P>
+                    <a href="feedback.php">Don't be shy. Please give us feedback.</a>
+                </section>
+                <section class="klacht">
+                    <h2 class="titelklacht">Review</h2>
 
+                    <P class="titelklacht">Tell us, don't hesitate!</P>
+                    <a href="opinion.php">Comment</a>
+               </section>
             </section>
 
 
