@@ -30,7 +30,7 @@
      $maximum = $_POST['maximum'];
 
 
-     $query = $db->prepare("SELECT * FROM products WHERE 'price' BETWEEN $minimum AND $maximum");
+     $query = $db->prepare("SELECT * FROM products WHERE type='phone' AND price BETWEEN $minimum AND $maximum");
      $query->execute();
      $resultq = $query->fetchAll(PDO::FETCH_ASSOC);
 
