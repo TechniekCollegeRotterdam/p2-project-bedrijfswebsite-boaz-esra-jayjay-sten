@@ -13,6 +13,13 @@
 <body>
 
     <?php include 'nav.html'?>
+    <form class="prijsverschil" method="post" action="prijs.php">
+        <input type="number" value="minimum price" placeholder="minimum price $" name="minimum">
+        <input type="number" value="maximum price" placeholder="maximum price $" name="maximum">
+        <input type="submit" value="apply" name="verzend">
+
+    </form>
+
 
     <main class="phone-main">
         <form class="searchbar-mobile" method="post" action="searchbar.php">
@@ -20,10 +27,16 @@
             <button type="submit" value="search">search</button>
         </form>
 
-        <section class="phonephp">
 
 
-     <?php
+
+
+
+
+
+    <section class="phonephp">
+
+  <?php
      // leg verbinding met database
      require_once("dbconnsaturnus.php");
 
@@ -35,8 +48,6 @@
 
 
         echo "<fieldset></fieldset>";
-
-
 
          echo "manufacturer: " . $data["manufacturer"];
          echo "<br>";
