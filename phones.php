@@ -23,7 +23,7 @@
         <section class="phonephp">
 
 
-            <?php
+     <?php
      // leg verbinding met database
      require_once("dbconnsaturnus.php");
 
