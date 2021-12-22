@@ -15,15 +15,15 @@
     <?php include 'nav.html'?>
 
     <main class="phone-main">
-    <form class="searchbar-mobile" method="post" action="searchbar.php">
-      <input type="text" placeholder="search..." name="search">
-      <button type="submit" value="search">search</button>
-    </form>
+        <form class="searchbar-mobile" method="post" action="searchbar.php">
+            <input type="text" placeholder="search..." name="search">
+            <button type="submit" value="search">search</button>
+        </form>
 
         <section class="phonephp">
 
-    
-     <?php
+
+            <?php
      // leg verbinding met database
      require_once("dbconnsaturnus.php");
 
