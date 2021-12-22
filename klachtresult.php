@@ -1,23 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -34,6 +14,7 @@
 <!--PHP INCLUDE zorgt dat onze footer en navbar op elke pagina hetzelfde staat!-->
   <?php include 'nav.html'?>
 
+<!--De searchbar in mobile form-->
   <main class="product-index">
     <form class="searchbar-mobile" method="post" action="searchbar.php">
       <input type="text" placeholder="search..." name="search">

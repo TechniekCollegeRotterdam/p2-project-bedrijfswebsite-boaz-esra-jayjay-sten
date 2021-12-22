@@ -15,7 +15,7 @@
 
 
 <body>
-<!--PHP INCLUDE zorgt dat onze footer en navbar op elke pagina hetzelfde staat!-->
+    <!--PHP INCLUDE zorgt dat onze footer en navbar op elke pagina hetzelfde staat!-->
     <?php include 'nav.html'?>
 
 
@@ -26,7 +26,7 @@
         </form>
 
 
-
+        <!--Contactpagina inhoud-->
         <section class="con-con">
             <section class="contact-items">
                 <h1>Contact us!</h1>
@@ -45,6 +45,8 @@
                 </section>
                 <section class="klacht">
                     <h2>Complaints?</h2>
+
+                    <!--link naar de klachtpagina met form-->
 
                     <P>Don't worry! You can send a complaint here!</P>
                     <a href="klacht.php">File a complaint</a>

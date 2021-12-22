@@ -25,7 +25,7 @@
         <section class="phonephp">
 
         <?php
-     // leg verbinding met database
+     // legt verbinding met database
      require_once("dbconnsaturnus.php");
 
      $query = $db->prepare("SELECT * FROM products WHERE name LIKE '%".$_POST['search']."%' OR genre LIKE '%".$_POST['search']."%' OR type LIKE '%".$_POST['search']."%' OR 
