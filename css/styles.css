@@ -735,6 +735,32 @@ img {
 
   /* filter */
 
+
+
+
+
+
+
+
+
+
+
+
+
+  /* feedback */
+
+  .feedback-link {
+    padding-top: 5%;
+  }
+
+  .radiofeed-btn {
+    display: flex;
+    flex-direction: row;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    justify-content: space-between;
+  }
+
   
 
 

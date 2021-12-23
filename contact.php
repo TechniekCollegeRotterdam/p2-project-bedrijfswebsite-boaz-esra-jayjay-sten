@@ -48,6 +48,11 @@
 
                     <P>Don't worry! You can send a complaint here!</P>
                     <a href="klacht.php">File a complaint</a>
+                    <section class="feedback-link">
+                    <h3>Your feedback helps us.</h3>
+                    <P class="titelklacht">We want to improve!</P>
+                    <a href="feedback.php">Don't be shy. Please give us feedback.</a>
+                    </section>
                 </section>
 
 
