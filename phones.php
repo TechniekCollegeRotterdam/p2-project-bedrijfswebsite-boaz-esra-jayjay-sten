@@ -13,17 +13,19 @@
 <body>
 
     <?php include 'nav.html'?>
-    <form class="prijsverschil" method="post" action="prijs.php">
-        <input type="number" value="minimum price" required placeholder="minimum price $" name="minimum">
-        <input type="number" value="maximum price" required placeholder="maximum price $" name="maximum">
-        <input type="submit" value="apply" name="verzend">
-    </form>
+
 
 
     <main class="phone-main">
         <form class="searchbar-mobile" method="post" action="searchbar.php">
             <input type="text" placeholder="search..." name="search">
             <button type="submit" value="search">search</button>
+        </form>
+
+        <form class="prijsverschil" method="post" action="prijs.php">
+            <input type="number" value="minimum price" required placeholder="minimum price $" name="minimum">
+            <input type="number" value="maximum price" required placeholder="maximum price $" name="maximum">
+            <input type="submit" value="apply" name="verzend">
         </form>
 
 
@@ -33,9 +35,9 @@
 
 
 
-    <section class="phonephp">
+        <section class="phonephp">
 
-  <?php
+            <?php
      // leg verbinding met database
      require_once("dbconnsaturnus.php");
 

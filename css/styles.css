@@ -233,6 +233,7 @@
   .phone-main {
     margin-bottom: 100%;
     margin-top: 20%;
+    padding-left: 3%;
   }
 
   /* searchbar mobile */
@@ -243,6 +244,7 @@
 
   .searchbar-mobile {
     display: flex;
+    padding-top: -4%;
    margin-top: 5px;
    justify-content: center;
   
@@ -310,6 +312,11 @@
  .searchbar {
    display: none;
  }
+
+ /* filter */
+ .prijsverschil {
+  padding-top: 2%;
+}
 
 }
 
@@ -734,6 +741,10 @@ img {
 
 
   /* filter */
+
+  .prijsverschil {
+    padding-top: 2%;
+  }
 
 
 

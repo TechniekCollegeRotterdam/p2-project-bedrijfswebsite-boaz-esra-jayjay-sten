@@ -56,10 +56,7 @@ if(isset($_POST["submit"])) {
 
 ?>
 
-   
-
-
-    
+  
 
   </main>
 
