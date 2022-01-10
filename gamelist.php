@@ -27,6 +27,10 @@
         <input type="submit" value="apply" name="verzend">
     </form>
 
+
+
+    <section class="phonephp">
+
     <?php
      // leg verbinding met database
      require_once("dbconnsaturnus.php");
@@ -65,6 +69,8 @@
 
 
     ?>
+
+</section>
 
 
 
