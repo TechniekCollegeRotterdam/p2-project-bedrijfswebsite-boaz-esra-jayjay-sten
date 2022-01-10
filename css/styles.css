@@ -747,12 +747,17 @@ img {
     padding-left: 5%;
   }
 
+  .filter-flexy {
+    display: flex;
+    
+  }
 
+  .alphabet {
 
+    padding-top: 2%;
+    padding-left: 0.5%;
 
-
-
-
+  }
 
 
 

@@ -22,12 +22,26 @@
             <button type="submit" value="search">search</button>
         </form>
 
+        <section class="filter-flexy">
+
         <form class="prijsverschil" method="post" action="prijs.php">
             <input type="number" value="minimum price" required placeholder="minimum price $" name="minimum">
             <input type="number" value="maximum price" required placeholder="maximum price $" name="maximum">
             <input type="submit" value="apply" name="verzend">
         </form>
 
+        
+
+        <form class="alphabet" method="post" action="az.php">
+            <input type="submit"  value="A - Z" name="A"> 
+        </form>
+        <form class="alphabet" method="post" action="za.php">
+            <input type="submit"  value="Z - A" name="z"> 
+        </form>
+
+        </section>
+
+      
 
 
 
