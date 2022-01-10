@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Games</title>
+  <title>laptops</title>
   <link id="pagestyle" rel="stylesheet" type="text/css" href="css/styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,29 +21,39 @@
       <button type="submit" value="search">search</button>
     </form>
 
-    <form class="prijsverschil" method="post" action="filtergame.php">
+    <form class="prijsverschil" method="post" action="filterlaptop.php">
         <input type="number" value="minimum price" required placeholder="minimum price $" name="minimum">
         <input type="number" value="maximum price" required placeholder="maximum price $" name="maximum">
         <input type="submit" value="apply" name="verzend">
     </form>
 
-    <?php
+    <section class="laptopphp">
+
+      <?php
      // leg verbinding met database
      require_once("dbconnsaturnus.php");
 
-     $query = $db->prepare("SELECT * FROM products WHERE type = 'games'");
+     $query = $db->prepare("SELECT * FROM products WHERE type = 'laptop'");
      $query->execute();
      $resultq = $query->fetchAll(PDO::FETCH_ASSOC);
 
      foreach ($resultq as $data) {
 
       echo "<fieldset></fieldset>";
-         
-         echo "title: " . $data["name"];
+
+         echo "manufacturer: " . $data["manufacturer"];
          echo "<br>";
-         echo "genre: " . $data["genre"];
+         echo "brand : " . $data["brand"];
          echo "<br>";
-         echo "released: " . $data["releasedate"];
+         echo "model : " . $data["model"];
+         echo "<br>";
+         echo "cpu: " . $data["processor"];
+         echo "<br>";
+         echo "graphicscard: " . $data["graphicscard"];
+         echo "<br>";
+         echo "ram: " . $data["memory"];
+         echo "<br>";
+         echo "disk: " . $data["space"];
          echo "<br>";
          echo "price: " . "$" . $data["price"];
          echo "<br>";
@@ -59,12 +69,14 @@
         echo "<img src=\"images/" . $url . ".jpg\" alt=\"" . $name . "\">";
          echo "<br>";
          echo "<br>";
-         
-         
+        
      }
 
 
     ?>
+
+    </section>
+
 
 
 

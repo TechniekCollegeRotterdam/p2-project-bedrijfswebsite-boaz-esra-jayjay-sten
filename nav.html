@@ -6,6 +6,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <link id="pagestyle" rel="stylesheet" type="text/css" href="css/styles.css">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
@@ -38,8 +39,7 @@
         <i class="fa fa-caret-down"></i>
       </button>
       <nav class="dropdown-content">
-        <a href="#">Telefoons</a>
-        
+        <a href="phones.php">Telefoons</a>
       </nav>
     </nav>
     <nav class="dropdown">
@@ -47,9 +47,7 @@
         <i class="fa fa-caret-down"></i>
       </button>
       <nav class="dropdown-content">
-        <a href="#">Laptops</a>
-        <a href="#">Desktops</a>
-       
+        <a href="laptops.php">Laptops</a> 
       </nav>
     </nav>
     <nav class="dropdown">
@@ -57,16 +55,22 @@
         <i class="fa fa-caret-down"></i>
       </button>
       <nav class="dropdown-content">
-        <a href="#">Films</a>
-        <a href="#">Muziek</a>
         <a href="gamelist.php">Games</a>
       </nav>
     </nav>
+    
     <nav class="topnav-right">
       <a href="contact.php">Contact</a>
       <a href="overons.php">Over ons</a>
-    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+      <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
     </nav>
+   
+
+    <form class="searchbar" method="post" action="searchbar.php">
+      <input type="text" placeholder="search..." name="search">
+      <button type="submit" value="search">search</button>
+    </form>
+  
   </nav>
   
   
