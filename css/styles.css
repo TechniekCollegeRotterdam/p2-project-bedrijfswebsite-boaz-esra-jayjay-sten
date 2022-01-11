@@ -194,6 +194,7 @@
    position: fixed;
    bottom: 0;
    width: 100%;
+   height: auto;
 
 
   
@@ -621,7 +622,7 @@ img {
   /* producten */
 
   .product-main {
-    margin-bottom: 30%;
+    margin-bottom: auto;
    padding-left: 2%;
    padding-right: 2%;
 
@@ -777,6 +778,26 @@ img {
     padding-top: 2%;
     padding-bottom: 2%;
     justify-content: space-between;
+  }
+
+
+  /* productpaginainfo */
+
+  .producteninfo {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+    padding-top: 5%;
+   
+  }
+
+  .producteninfo img {
+    height: 220px;
+
+  }
+
+  .beschrijving {
+    padding-top: 2%;
   }
 
   
