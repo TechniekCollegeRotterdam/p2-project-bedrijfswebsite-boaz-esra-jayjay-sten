@@ -27,7 +27,7 @@
         <input type="submit" value="apply" name="verzend">
     </form>
 
-    <section class="laptopphp">
+    <section class="phonephp">
 
       <?php
      // leg verbinding met database
