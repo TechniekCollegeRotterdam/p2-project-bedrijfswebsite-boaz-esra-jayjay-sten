@@ -46,9 +46,10 @@
 
      foreach ($resultq as $data) {
 
+      echo "<fieldset></fieldset>";
+
         echo "manufacturer: " . $data["manufacturer"];
-         echo "<br>";
-         echo "brand : " . $data["brand"];
+       
          echo "<br>";
          echo "model : " . $data["model"];
          echo "<br>";
