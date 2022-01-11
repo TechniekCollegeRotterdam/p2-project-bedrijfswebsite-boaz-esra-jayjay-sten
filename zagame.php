@@ -24,10 +24,10 @@
 
         
 
-        <form class="alphabet" method="post" action="az.php">
+        <form class="alphabet" method="post" action="azgame.php">
             <input type="submit"  value="A - Z" name="A"> 
         </form>
-        <form class="alphabet" method="post" action="za.php">
+        <form class="alphabet" method="post" action="zagame.php">
             <input type="submit"  value="Z - A" name="z"> 
         </form>
 
