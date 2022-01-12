@@ -28,12 +28,34 @@
       <h1>Most popular products!</h1>
     </section>
 
+    <?php
+    require_once("dbconnsaturnus.php");
+
+    $query = $db->prepare("SELECT COUNT(productID) FROM products");
+    $query->execute();
+    $resultcount = $query->fetchAll(PDO::FETCH_ASSOC);
+
+    foreach ($resultcount as $count) {
+
+
+      echo "Total products: " . $count["COUNT(productID)"];
+     
+ 
+   }
+
+
+
+
+
+    ?>
+
 
     <section class="index-sold">
 
+    <?php
 
-
-      <?php 
+    
+     
    // leg verbinding met database
    require_once("dbconnsaturnus.php");
 
@@ -42,6 +64,8 @@
    $resultq = $query->fetchAll(PDO::FETCH_ASSOC);
 
   //  product echo
+
+  
 
 
   foreach ($resultq as $data) {
