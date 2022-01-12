@@ -22,24 +22,7 @@
             <button type="submit" value="search">search</button>
         </form>
 
-        <section class="filter-flexy">
-
-        <form class="prijsverschil" method="post" action="prijs.php">
-            <input type="number" value="minimum price" required placeholder="minimum price $" name="minimum">
-            <input type="number" value="maximum price" required placeholder="maximum price $" name="maximum">
-            <input type="submit" value="apply" name="verzend">
-        </form>
-
         
-
-        <form class="alphabet" method="post" action="az.php">
-            <input type="submit"  value="A - Z" name="A"> 
-        </form>
-        <form class="alphabet" method="post" action="za.php">
-            <input type="submit"  value="Z - A" name="z"> 
-        </form>
-
-        </section>
 
       
 
@@ -49,26 +32,22 @@
 
 
 
-   <section class="phonephp">
+   <section class="producteninfo">
 
             <?php
      // leg verbinding met database
      require_once("dbconnsaturnus.php");
 
-     $query = $db->prepare("SELECT * FROM products WHERE type = 'phone'");
+     $query = $db->prepare("SELECT * FROM products WHERE productID = '1'");
      $query->execute();
      $resultq = $query->fetchAll(PDO::FETCH_ASSOC);
 
      foreach ($resultq as $data) {
 
 
-        echo "<fieldset></fieldset>";
-
+         echo "Title : " . $data["name"];
+         echo "<br>";
          echo "manufacturer: " . $data["manufacturer"];
-         echo "<br>";
-         echo "brand : " . $data["brand"];
-         echo "<br>";
-         echo "model : " . $data["model"];
          echo "<br>";
          echo "price: " . "$" . $data["price"];
          echo "<br>";
@@ -81,6 +60,7 @@
         $url = preg_replace("/[\s-]+/", " ", $url);
         //Convert whitespaces and underscore to dash
         $url = preg_replace("/[\s]/", "-", $url);
+        echo "<br>";
         echo "<img src=\"images/" . $url . ".jpg\" alt=\"" . $name . "\">";
          echo "<br>";
          echo "<br>";
@@ -88,10 +68,23 @@
          
      }
 
-
     ?>
 
-        </section>
+
+    </section>
+
+    <p class="beschrijving">
+    “When a young street hustler, a retired bank robber and a terrifying psychopath find themselves entangled with some of the most frightening
+     and <br> deranged elements of the criminal underworld, the U.S. government and the entertainment industry,<br>
+    they must pull off a series of dangerous heists to survive in a ruthless city in which they can trust nobody, least of all each other.”
+    <br>
+    <br>
+    As one of the most eagerly-awaited video game titles to be released in 2013, the game was widely anticipated prior to its release.<br>
+     Grand Theft Auto V was released to universal acclaim, holding scores of 96 and above on MetaCritic and GameRankings, as well<br> as receiving perfect scores
+      from over 30 reviewers. The game sold 11,210,000 copies and<br>
+     grossed $800,000,000 on its first day of release, setting many records, and eventually making $1,000,000,000 within 3 days of the game's release. 
+    
+    </p>
 
 
 

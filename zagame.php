@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Games</title>
+  <title>Z - A</title>
   <link id="pagestyle" rel="stylesheet" type="text/css" href="css/styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,54 +14,44 @@
 
   <?php include 'nav.html'?>
 
+  <section class="filter-flexy">
 
-  <main class="product-main">
-    <form class="searchbar-mobile" method="post" action="searchbar.php">
-      <input type="text" placeholder="search..." name="search">
-      <button type="submit" value="search">search</button>
-    </form>
+        <form class="prijsverschil" method="post" action="prijs.php">
+            <input type="number" value="minimum price" required placeholder="minimum price $" name="minimum">
+            <input type="number" value="maximum price" required placeholder="maximum price $" name="maximum">
+            <input type="submit" value="apply" name="verzend">
+        </form>
 
-    <section class="filter-flexy">
+        
 
-      <form class="prijsverschil" method="post" action="prijs.php">
-        <input type="number" value="minimum price" required placeholder="minimum price $" name="minimum">
-        <input type="number" value="maximum price" required placeholder="maximum price $" name="maximum">
-        <input type="submit" value="apply" name="verzend">
-      </form>
+        <form class="alphabet" method="post" action="azgame.php">
+            <input type="submit"  value="A - Z" name="A"> 
+        </form>
+        <form class="alphabet" method="post" action="zagame.php">
+            <input type="submit"  value="Z - A" name="z"> 
+        </form>
 
+        </section>
 
-
-      <form class="alphabet" method="post" action="azgame.php">
-        <input type="submit" value="A - Z" name="A">
-      </form>
-      <form class="alphabet" method="post" action="zagame.php">
-        <input type="submit" value="Z - A" name="z">
-      </form>
-
-    </section>
-
-
-
-
-    <section class="phonephp">
+    <section class="laptopphp">
 
       <?php
      // leg verbinding met database
      require_once("dbconnsaturnus.php");
 
-     $query = $db->prepare("SELECT * FROM products WHERE type = 'games'");
+
+     $query = $db->prepare("SELECT * FROM `products` WHERE type='games' ORDER BY name DESC");
      $query->execute();
      $resultq = $query->fetchAll(PDO::FETCH_ASSOC);
 
      foreach ($resultq as $data) {
 
       echo "<fieldset></fieldset>";
-         
-         echo "title: " . $data["name"];
+
+        echo "manufacturer: " . $data["manufacturer"];
+       
          echo "<br>";
-         echo "genre: " . $data["genre"];
-         echo "<br>";
-         echo "released: " . $data["releasedate"];
+         echo "model : " . $data["model"];
          echo "<br>";
          echo "price: " . "$" . $data["price"];
          echo "<br>";
@@ -77,14 +67,13 @@
         echo "<img src=\"images/" . $url . ".jpg\" alt=\"" . $name . "\">";
          echo "<br>";
          echo "<br>";
-         
-         
      }
 
 
     ?>
 
     </section>
+
 
 
 
