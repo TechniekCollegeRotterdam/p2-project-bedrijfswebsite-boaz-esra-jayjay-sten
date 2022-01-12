@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Phones</title>
+    <title>Grand theft auto v</title>
     <link id="pagestyle" rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -44,13 +44,14 @@
 
      foreach ($resultq as $data) {
 
-
          echo "Title : " . $data["name"];
          echo "<br>";
          echo "manufacturer: " . $data["manufacturer"];
          echo "<br>";
          echo "price: " . "$" . $data["price"];
          echo "<br>";
+         echo "<br>";
+
          $name = $data["model"];
          // Make lower case
          $url = strtolower($name);
@@ -65,9 +66,7 @@
          echo "<br>";
          echo "<br>";
          
-         
      }
-
     ?>
 
 
