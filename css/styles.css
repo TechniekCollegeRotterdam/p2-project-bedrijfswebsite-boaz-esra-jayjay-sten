@@ -285,6 +285,10 @@
     padding-bottom: 5%;
   }
 
+  .date {
+    padding-bottom: 5%;
+  }
+
   .telform {
     padding-bottom: 3%;
   }
@@ -449,6 +453,10 @@ img {
 }
 
 .email {
+  padding-bottom: 5%;
+}
+
+.date {
   padding-bottom: 5%;
 }
 
@@ -728,6 +736,10 @@ img {
   }
 
   .email {
+    padding-bottom: 5%;
+  }
+
+  .date {
     padding-bottom: 5%;
   }
 
