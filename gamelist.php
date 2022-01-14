@@ -53,13 +53,17 @@
      $query->execute();
      $resultq = $query->fetchAll(PDO::FETCH_ASSOC);
 
+
      foreach ($resultq as $data) {
+
 
       echo "<fieldset></fieldset>";
          
          echo "title: " . $data["name"];
          echo "<br>";
          echo "genre: " . $data["genre"];
+         echo "<br>";
+         echo  $data["url"];
          echo "<br>";
          echo "released: " . $data["releasedate"];
          echo "<br>";

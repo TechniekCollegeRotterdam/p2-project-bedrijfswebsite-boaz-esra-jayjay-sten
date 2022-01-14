@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Grand theft auto v</title>
+    <title>GTA V</title>
     <link id="pagestyle" rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -44,14 +44,13 @@
 
      foreach ($resultq as $data) {
 
+
          echo "Title : " . $data["name"];
          echo "<br>";
          echo "manufacturer: " . $data["manufacturer"];
          echo "<br>";
          echo "price: " . "$" . $data["price"];
          echo "<br>";
-         echo "<br>";
-
          $name = $data["model"];
          // Make lower case
          $url = strtolower($name);
@@ -66,7 +65,9 @@
          echo "<br>";
          echo "<br>";
          
+         
      }
+
     ?>
 
 
@@ -81,10 +82,54 @@
     As one of the most eagerly-awaited video game titles to be released in 2013, the game was widely anticipated prior to its release.<br>
      Grand Theft Auto V was released to universal acclaim, holding scores of 96 and above on MetaCritic and GameRankings, as well<br> as receiving perfect scores
       from over 30 reviewers. The game sold 11,210,000 copies and<br>
-     grossed $800,000,000 on its first day of release, setting many records, and eventually making $1,000,000,000 within 3 days of the game's release. 
-    
+     grossed $800,000,000 on its first day of release, setting many records, and eventually making $1,000,000,000 within 3 days of the game's release.<br><br>
+    <b>Available on PS3,PS4,Xbox 360,Xbox One And PC.</b><br><br>
     </p>
 
+
+    <h2 class="titelklacht">Reviews</h2>
+
+
+<form class="klachtform2" id="comform" method="post" action="reviewresult.php">
+
+    <section class="names">
+        <label name="name">Full name</label>
+        <input type="text" placeholder="John" required name="fname">
+      </section>
+      <section class="date">
+      <label for="purchasedate">Date of Purchase</label>
+      <input type="date" id="purchase" required name="purchasedate">
+    </section>
+    <section class="emails">
+        <label name="mail">Email *</label>
+        <input type="mail" placeholder="Someone@123.com" required name="mail">
+    </section>
+    <section class="radiofeed-btn">
+        <label name="feedradio">How do you experience your product?</label>
+       1 ★<input type="radio" name="feedradio" value="verypoor">
+       2 ★★<input type="radio" name="feedradio" value="poor">
+       3 ★★★<input type="radio" name="feedradio" value="fine">
+       4 ★★★★<input type="radio" name="feedradio" value="good">
+       5 ★★★★★<input type="radio" name="feedradio" value="Perfect">
+    </section>
+
+    <p>Give your feedback.</p>
+
+    <textarea form="comform" name="comment" placeholder="feedback here. " required rows="4"
+        cols="50"></textarea>
+
+    <section class="submit-reset">
+        <input type="submit" name="submit" value="submit">
+        <input type="reset" name="reset" value="reset">
+    </section>
+
+
+
+
+
+
+
+</form>
 
 
 

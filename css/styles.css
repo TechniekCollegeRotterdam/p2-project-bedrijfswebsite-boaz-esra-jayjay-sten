@@ -285,6 +285,10 @@
     padding-bottom: 5%;
   }
 
+  .date {
+    padding-bottom: 5%;
+  }
+
   .telform {
     padding-bottom: 3%;
   }
@@ -320,6 +324,14 @@
  .prijsverschil {
   padding-top: 2%;
 }
+
+.radiofeed-btn{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  
+}
+
 
 }
 
@@ -452,6 +464,10 @@ img {
   padding-bottom: 5%;
 }
 
+.date {
+  padding-bottom: 5%;
+}
+
 .telform {
   padding-bottom: 3%;
 }
@@ -478,10 +494,20 @@ img {
   padding-left: 3%;
 
 
-
-
-
 }
+
+.radiofeed-btn{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  
+}
+
+.klachtform2 {
+  padding-bottom: 10%;
+}
+
+
 
 
 
@@ -731,6 +757,10 @@ img {
     padding-bottom: 5%;
   }
 
+  .date {
+    padding-bottom: 5%;
+  }
+
   .telform {
     padding-bottom: 3%;
   }
@@ -798,6 +828,17 @@ img {
 
   .beschrijving {
     padding-top: 2%;
+  }
+
+  .klachtform2 {
+    padding-bottom: 15%;
+  }
+
+  .radiofeed-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
   }
 
   
