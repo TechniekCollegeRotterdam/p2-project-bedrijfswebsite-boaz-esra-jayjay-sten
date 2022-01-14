@@ -63,12 +63,13 @@
          echo "<br>";
          echo "genre: " . $data["genre"];
          echo "<br>";
-         echo  $data["url"];
-         echo "<br>";
          echo "released: " . $data["releasedate"];
          echo "<br>";
          echo "price: " . "$" . $data["price"];
          echo "<br>";
+         echo "<a href=".$data["url"] .">Go to product </a>";
+         echo "<br>";
+         
          $name = $data["model"];
          // Make lower case
          $url = strtolower($name);

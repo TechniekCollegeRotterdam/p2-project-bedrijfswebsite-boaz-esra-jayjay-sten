@@ -24,7 +24,10 @@
             <input type="text" placeholder="search..." name="search">
             <button type="submit" value="search">search</button>
         </form>
+        
 
+
+        <section class=".con-conflex">
 
 
         <section class="con-con">
@@ -43,7 +46,14 @@
                         allowfullscreen="" loading="lazy">
                     </iframe>
                 </section>
-                <section class="klacht">
+            </section>
+
+
+
+        </section>
+
+        <aside class="asideklacht">
+        <section class="klacht">
                     <h2>Complaints?</h2>
 
                     <P>Don't worry! You can send a complaint here!</P>
@@ -54,11 +64,7 @@
                     <a href="feedback.php">Don't be shy. Please give us feedback.</a>
                     </section>
                 </section>
-
-
-            </section>
-
-
+        </aside>
 
         </section>
 

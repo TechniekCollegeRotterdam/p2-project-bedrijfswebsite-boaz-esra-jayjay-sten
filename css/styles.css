@@ -189,11 +189,11 @@
   .footer-web {
     display: flex;
    background-color: #0083c0;
-  
+     
    margin-top: auto;
-   position: fixed;
+   position: absolute;
    bottom: 0;
-   width: 100%;
+   width: 100vw;
    height: auto;
 
 
@@ -331,6 +331,7 @@
   justify-content: space-evenly;
   
 }
+
 
 
 }
@@ -538,6 +539,7 @@ img {
  
   body {
     margin: 0;
+    position: relative;
   }
 
   /* footer desktop */
@@ -602,6 +604,8 @@ img {
     display: flex;
     padding-top: 4%;
     padding-left: 2%;
+    position: relative;
+    
     
     
     
@@ -611,6 +615,7 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    
     
    
   }
@@ -638,6 +643,12 @@ img {
     padding-left: 1%;
     border-style: none;
     width: 100%;
+  }
+
+  .asideklacht {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
   }
 
 

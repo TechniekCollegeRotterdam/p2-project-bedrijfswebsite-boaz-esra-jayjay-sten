@@ -64,6 +64,8 @@
         echo "<br>";
         echo "price: " . "$" . $data["price"];
         echo "<br>";
+        echo "<a href=".$data["url"] .">Go to product </a>";
+         echo "<br>";
         $name = $data["model"];
         // Make lower case
         $url = strtolower($name);
