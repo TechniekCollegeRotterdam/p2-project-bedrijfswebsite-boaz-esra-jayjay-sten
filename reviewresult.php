@@ -59,7 +59,7 @@
 
 ?>
 
-  
+  <p><a href="index.php">Klik hier om terug naar de homepage te gaan!</a></p>
 
   </main>
 
