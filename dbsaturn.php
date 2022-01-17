@@ -8,7 +8,7 @@
 <body>
     <?php
     // leg verbinding met database
-     require_once("dbconn-saturn.php");
+     require_once("dbconnsaturnus.php");
 
      $query = $db->prepare("SELECT * FROM laptops");
      $query->execute();

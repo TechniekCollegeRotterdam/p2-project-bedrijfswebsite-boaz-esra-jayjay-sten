@@ -20,6 +20,12 @@
 
 
     <main class="product-main">
+    <form class="searchbar-mobile" method="post" action="searchbar.php">
+      <input type="text" placeholder="search..." name="search">
+      <button type="submit" value="search">search</button>
+    </form>
+
+
 
         <section class="con-con">
             <section class="contact-items">
