@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>GTA Trilogy</title>
+    <title>Hatsune Miku Future Tone DX</title>
     <link id="pagestyle" rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -38,7 +38,7 @@
      // leg verbinding met database
      require_once("dbconnsaturnus.php");
 
-     $query = $db->prepare("SELECT * FROM products WHERE productID = '3'");
+     $query = $db->prepare("SELECT * FROM products WHERE productID = '7'");
      $query->execute();
      $resultq = $query->fetchAll(PDO::FETCH_ASSOC);
 
@@ -74,13 +74,13 @@
         </section>
 
         <p class="beschrijving">
-            Dit is The Definitive Edition van Grand Theft Auto: The Trilogy, geschikt voor de PS4. Drie iconische
-            steden, drie epische verhalen. Speel de baanbrekende klassiekers van de originele Grand Theft Auto-trilogie:<br>
-            Grand Theft Auto III, Grand Theft Auto: Vice City en Grand Theft Auto: San Andreas.<br> in de verf gezet voor
-            een nieuwe generatie met een keur aan verbeteringen, zoals geweldige nieuwe belichting, omgevingsupgrades,
-            texturen in hoge resolutie, een verbeterde draw distance, <br>het besturings- en richtsysteem van Grand Theft
-            Auto V en nog veel meer.<br>
-            <b>Available on PS4,PS5, Xbox One, Xbox Series, Switch And PC.</b><br><br>
+            Hatsune Miku: Project Diva Future Tone is a packaged release that includes Hatsune Miku: Project DIVA Future
+            Tone Prelude, Hatsune Miku: Project DIVA Future Tone Future Sound, and Hatsune Miku: Project DIVA Future
+            Tone Colorful Tone,<br> The “1st Encore Pack,” “2nd Encore Pack, and “3rd Encore Pack” add-ons are also
+            included. Additionally, to commemorate the release of the physical version, we’re adding the song “Ghost
+            Rule,” which has achieved over 9.5 million views on video upload websites. In total, Hatsune Miku: Project
+            DIVA Future Tone includes 237 songs and 396 modules (costumes).
+
         </p>
 
 
