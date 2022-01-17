@@ -189,11 +189,11 @@
   .footer-web {
     display: flex;
    background-color: #0083c0;
-   max-height: 25vh;
+     
    margin-top: auto;
-   position: fixed;
+   position: relative;
    bottom: 0;
-   width: 100%;
+   width: 100vw;
    height: auto;
 
 
@@ -324,6 +324,15 @@
  .prijsverschil {
   padding-top: 2%;
 }
+
+.radiofeed-btn{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  
+}
+
+
 
 }
 
@@ -486,10 +495,20 @@ img {
   padding-left: 3%;
 
 
-
-
-
 }
+
+.radiofeed-btn{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  
+}
+
+.klachtform2 {
+  padding-bottom: 10%;
+}
+
+
 
 
 
@@ -520,6 +539,7 @@ img {
  
   body {
     margin: 0;
+    position: relative;
   }
 
   /* footer desktop */
@@ -558,7 +578,7 @@ img {
     
    max-height: 20vh;
    margin-top: auto;
-   position: fixed;
+   position: relative;
    bottom: 0;
    width: 100%;
 
@@ -572,7 +592,7 @@ img {
     display: flex;
     max-width: 100%;
     height: auto;
-    width: auto\9;
+   
 
   }
 
@@ -584,6 +604,8 @@ img {
     display: flex;
     padding-top: 4%;
     padding-left: 2%;
+    position: relative;
+    
     
     
     
@@ -593,6 +615,7 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    
     
    
   }
@@ -622,6 +645,12 @@ img {
     width: 100%;
   }
 
+  .asideklacht {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+  }
+
 
   
  
@@ -633,6 +662,7 @@ img {
     margin-bottom: auto;
    padding-left: 2%;
    padding-right: 2%;
+   
 
   }
 
@@ -719,6 +749,7 @@ img {
       padding-top: 2%;
       padding-left: 5%;
       padding-right: 5%;
+      height: auto;
   }
 
 
@@ -810,6 +841,17 @@ img {
 
   .beschrijving {
     padding-top: 2%;
+  }
+
+  .klachtform2 {
+    padding-bottom: 15%;
+  }
+
+  .radiofeed-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
   }
 
   
