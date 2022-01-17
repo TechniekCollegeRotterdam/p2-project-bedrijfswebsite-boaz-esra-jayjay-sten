@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Call of duty: Vanguard</title>
+    <title>Persona 5 Royal</title>
     <link id="pagestyle" rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,9 +22,6 @@
             <button type="submit" value="search">search</button>
         </form>
 
-        
-
-      
 
 
 
@@ -32,13 +29,16 @@
 
 
 
-   <section class="producteninfo">
+
+
+
+        <section class="producteninfo">
 
             <?php
      // leg verbinding met database
      require_once("dbconnsaturnus.php");
 
-     $query = $db->prepare("SELECT * FROM products WHERE productID = '2'");
+     $query = $db->prepare("SELECT * FROM products WHERE productID = '4'");
      $query->execute();
      $resultq = $query->fetchAll(PDO::FETCH_ASSOC);
 
@@ -71,20 +71,25 @@
     ?>
 
 
-    </section>
+        </section>
 
-    <p class="beschrijving">
-    Call of Duty: Vanguard is a 2021 first-person shooter game developed by Sledgehammer Games and published by Activision. ...<br>
-    Vanguard establishes a storyline featuring the birth of the special forces to face an emerging threat at the end of the war 
-    during various theatres of World War II.<br>
-    <b>Available on PS4, Xbox One And PC.</b><br><br>
-    </p>
+        <p class="beschrijving">
+            Trek het masker van Joker aan en word lid van de Phantom Thieves of Hearts. Breek los van de ketens van de
+            moderne samenleving en organiseer overvallen om de geesten van de gecorrumpeerden te infiltreren en <br>hen hun
+            wegen te laten veranderen!<br><br>
+            Maak je klaar om je vaardigheden te versterken in de metaverse en in je dagelijkse leven, in een nieuw
+            semester op Shujin Academy.<br> Persona 5 Royal presenteert een unieke visuele stijl en ook bekroonde componist
+            Shoji Meguro is terug met een geheel nieuwe soundtrack.<br> Verken Tokyo, ontgrendel nieuwe Personas, pas je
+            eigen Thieves Den aan, ontdek een volledig nieuwe verhaallijn, tussenfilmpjes, alternatieve eindes en meer!<br><br>
+            Zelfs voor de meest ervaren Phantom Thieves onder ons is Persona 5 Royal een nieuwe uitdaging. Draag het
+            masker en onthul je waarheid!
+        </p>
 
 
-    <h2 class="titelklacht">Reviews</h2>
+        <h2 class="titelklacht">Reviews</h2>
 
 
-    <form class="klachtform2" id="comform" method="post" action="reviewresult.php">
+        <form class="klachtform2" id="comform" method="post" action="reviewresult.php">
 
 <section class="names">
     <label name="name">Full name</label>
