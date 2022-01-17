@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>GTA Trilogy</title>
+    <title>Taiko no Tatsujin Drum Sessions</title>
     <link id="pagestyle" rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -38,7 +38,7 @@
      // leg verbinding met database
      require_once("dbconnsaturnus.php");
 
-     $query = $db->prepare("SELECT * FROM products WHERE productID = '3'");
+     $query = $db->prepare("SELECT * FROM products WHERE productID = '5'");
      $query->execute();
      $resultq = $query->fetchAll(PDO::FETCH_ASSOC);
 
@@ -74,13 +74,17 @@
         </section>
 
         <p class="beschrijving">
-            Dit is The Definitive Edition van Grand Theft Auto: The Trilogy, geschikt voor de PS4. Drie iconische
-            steden, drie epische verhalen. Speel de baanbrekende klassiekers van de originele Grand Theft Auto-trilogie:<br>
-            Grand Theft Auto III, Grand Theft Auto: Vice City en Grand Theft Auto: San Andreas.<br> in de verf gezet voor
-            een nieuwe generatie met een keur aan verbeteringen, zoals geweldige nieuwe belichting, omgevingsupgrades,
-            texturen in hoge resolutie, een verbeterde draw distance, <br>het besturings- en richtsysteem van Grand Theft
-            Auto V en nog veel meer.<br>
-            <b>Available on PS4,PS5, Xbox One, Xbox Series, Switch And PC.</b><br><br>
+            Geniet lekker thuis op de bank van de klassieke arcaderitmegame uit Japan! Speel met je eigen drum, volg de
+            beat in allerlei nieuwe nummers en daag je vrienden uit om te bewijzen wie het beste in taiko is!<br><br>
+            SPEEL MET JE VRIENDEN: Speel samen in coöp- of versus-modus of online met ghost-gegevens van je vrienden
+            voor de hoogste score<br><br>
+            RANKED MODE: Maak online verbinding en neem het op tegen de ghost-gegevens van Taiko-spelers van over de
+            hele wereld om te zien wie het allerbeste is.<br><br>
+            VEEL PERSONAGES BESCHIKBAAR: Speel Guest Session met personages als Hatsune Miku, Heihachi Mishima en vele
+            andere.<br><br>
+            GENIET VAN ICONISCHE NUMMERS: Meer dan 70 nummers uit Dragon Ball Super, Zootopia. Frozen en nog veel meer!
+            ONTGRENDELBARE CONTENT: Speel de game en ontgrendel kostuums voor Don-chan, de mascotte van de Taiko-serie,
+            geluidseffecten en meer!<br><br>
         </p>
 
 

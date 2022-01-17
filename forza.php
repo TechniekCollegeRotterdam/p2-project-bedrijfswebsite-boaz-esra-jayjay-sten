@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>GTA Trilogy</title>
+    <title>Forza Horizon 5 Deluxe Edition</title>
     <link id="pagestyle" rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -38,7 +38,7 @@
      // leg verbinding met database
      require_once("dbconnsaturnus.php");
 
-     $query = $db->prepare("SELECT * FROM products WHERE productID = '3'");
+     $query = $db->prepare("SELECT * FROM products WHERE productID = '9'");
      $query->execute();
      $resultq = $query->fetchAll(PDO::FETCH_ASSOC);
 
@@ -74,13 +74,30 @@
         </section>
 
         <p class="beschrijving">
-            Dit is The Definitive Edition van Grand Theft Auto: The Trilogy, geschikt voor de PS4. Drie iconische
-            steden, drie epische verhalen. Speel de baanbrekende klassiekers van de originele Grand Theft Auto-trilogie:<br>
-            Grand Theft Auto III, Grand Theft Auto: Vice City en Grand Theft Auto: San Andreas.<br> in de verf gezet voor
-            een nieuwe generatie met een keur aan verbeteringen, zoals geweldige nieuwe belichting, omgevingsupgrades,
-            texturen in hoge resolutie, een verbeterde draw distance, <br>het besturings- en richtsysteem van Grand Theft
-            Auto V en nog veel meer.<br>
-            <b>Available on PS4,PS5, Xbox One, Xbox Series, Switch And PC.</b><br><br>
+            <b>Dit is een diverse open wereld.</b><br>
+            Verken een wereld van opvallend contrast en schoonheid. Ontdek levende woestijnen, weelderige jungles,
+            historische steden, verborgen ruïnes, ongerepte stranden, uitgestrekte canyons en een torenhoge met sneeuw
+            bedekte vulkaan.<br><br>
+            <b>Dit is een avontuurlijke open wereld.</b><br>
+            Dompel jezelf onder in een diepgaande campagne met honderden uitdagingen die je belonen voor het uitvoeren
+            van de activiteiten waar je van houdt. Ontmoet nieuwe personages en kies de resultaten van hun Horizon
+            Story-missies.<br><br>
+            <b>Dit is een zich ontwikkelende open wereld.</b><br>
+            Neem het op tegen ontzagwekkende weersomstandigheden zoals torenhoge stofstormen en intense tropische
+            stormen terwijl de unieke, dynamische seizoenen van Mexico de wereld elke week veranderen. Blijf terugkomen
+            voor nieuwe evenementen, uitdagingen, verzamelobjecten en beloningen, en nieuwe gebieden om te verkennen.
+            Geen twee seizoenen zullen ooit hetzelfde zijn.<br><br>
+            <b>Dit is een sociale open wereld</b><br>
+            Werk samen met andere spelers en betreed de Horizon Arcade voor een voortdurende reeks leuke, over-the-top
+            uitdagingen die jou en je vrienden in de actie houden en plezier hebben zonder menu's, laadschermen of
+            lobby's. Ontmoet nieuwe vrienden in Horizon Open en Tours en deel je creaties met nieuwe
+            community-geschenken. (Op console is Xbox Game Pass Ultimate of Xbox Live Gold vereist, lidmaatschappen
+            worden apart verkocht.)<br><br>
+            <b>Dit is jouw open wereld</b><br>
+            Creëer je eigen uitingen van plezier met de krachtige nieuwe EventLab-gameplaytoolset, inclusief aangepaste
+            races, uitdagingen, stunts en geheel nieuwe spelmodi. Personaliseer je auto's op meer manieren dan ooit
+            tevoren met nieuwe opties zoals de mogelijkheid om cabriokappen te openen en te sluiten, remklauwen te
+            schilderen en meer. Gebruik de nieuwe functie Gift Drops om je eigen creaties met de community te delen.<br><br>
         </p>
 
 

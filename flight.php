@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>GTA Trilogy</title>
+    <title>Flight Simulator 2020</title>
     <link id="pagestyle" rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -38,7 +38,7 @@
      // leg verbinding met database
      require_once("dbconnsaturnus.php");
 
-     $query = $db->prepare("SELECT * FROM products WHERE productID = '3'");
+     $query = $db->prepare("SELECT * FROM products WHERE productID = '6'");
      $query->execute();
      $resultq = $query->fetchAll(PDO::FETCH_ASSOC);
 
@@ -74,13 +74,14 @@
         </section>
 
         <p class="beschrijving">
-            Dit is The Definitive Edition van Grand Theft Auto: The Trilogy, geschikt voor de PS4. Drie iconische
-            steden, drie epische verhalen. Speel de baanbrekende klassiekers van de originele Grand Theft Auto-trilogie:<br>
-            Grand Theft Auto III, Grand Theft Auto: Vice City en Grand Theft Auto: San Andreas.<br> in de verf gezet voor
-            een nieuwe generatie met een keur aan verbeteringen, zoals geweldige nieuwe belichting, omgevingsupgrades,
-            texturen in hoge resolutie, een verbeterde draw distance, <br>het besturings- en richtsysteem van Grand Theft
-            Auto V en nog veel meer.<br>
-            <b>Available on PS4,PS5, Xbox One, Xbox Series, Switch And PC.</b><br><br>
+            <b>Microsoft Flight Simulator voor PC is de volgende generatie van een van de meest geliefde
+            simulatiefranchises.</b><br> Deze vliegsimulator komt met een 80-pagina's tellend fysiek artbook! Van lichte
+            vliegtuigen tot wide-body jets, vlieg zeer gedetailleerde en verbluffende vliegtuigen in een ongelooflijk
+            realistische wereld.<br> Maak jouw vluchtplan en vlieg overal op de planeet. Vlieg overdag of 's nachts en
+            ervaar realistische, uitdagende weersomstandigheden.<br>
+            De hele wereld binnen handbereik. Stijg op en ervaar het plezier van vliegen in de volgende generatie
+            Microsoft Flight Simulator.
+
         </p>
 
 
