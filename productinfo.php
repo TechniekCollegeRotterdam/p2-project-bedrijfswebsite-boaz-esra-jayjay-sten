@@ -83,45 +83,45 @@
      Grand Theft Auto V was released to universal acclaim, holding scores of 96 and above on MetaCritic and GameRankings, as well<br> as receiving perfect scores
       from over 30 reviewers. The game sold 11,210,000 copies and<br>
      grossed $800,000,000 on its first day of release, setting many records, and eventually making $1,000,000,000 within 3 days of the game's release.<br><br>
-    <b>Available on PS3,PS4,Xbox 360,Xbox One And PC.</b><br><br>
+    <b>Availible on PS3,PS4,Xbox 360,Xbox One And PC.</b><br><br>
     </p>
 
 
     <h2 class="titelklacht">Reviews</h2>
 
 
-    <form class="klachtform2" id="comform" method="post" action="reviewresult.php">
+<form class="klachtform" id="comform" method="post" action="reviewresult.php">
 
-<section class="names">
-    <label name="name">Full name</label>
-    <input type="text" placeholder="John" required name="fname">
-</section>
-<section class="date">
-    <label for="purchasedate">Date of Purchase</label>
-    <input type="date" id="purchase" required name="purchasedate">
-</section>
-<section class="emails">
-    <label name="mail">Email *</label>
-    <input type="mail" placeholder="Someone@123.com" required name="mail">
-</section>
-<section class="radiofeed-btn">
-    <label name="feedradio">How do you experience your product?</label>
-    1 ★<input type="radio" name="feedradio" value="★">
-    2 ★★<input type="radio" name="feedradio" value="★★">
-    3 ★★★<input type="radio" name="feedradio" value="★★★">
-    4 ★★★★<input type="radio" name="feedradio" value="★★★★">
-    5 ★★★★★<input type="radio" name="feedradio" value="★★★★★">
-</section>
+    <section class="names">
+        <label name="name">Full name</label>
+        <input type="text" placeholder="John" required name="fname">
+      </section>
+      <section class="date">
+      <label for="purchasedate">Date of Purchase</label>
+      <input type="date" id="purchase" required name="purchasedate">
+    </section>
+    <section class="emails">
+        <label name="mail">Email *</label>
+        <input type="mail" placeholder="Someone@123.com" required name="mail">
+    </section>
+    <section class="radiofeed-btn">
+        <label name="feedradio">How do you experience our website?</label>
+       very poor<input type="radio" name="feedradio" value="verypoor">
+       poor<input type="radio" name="feedradio" value="poor">
+       fine<input type="radio" name="feedradio" value="fine">
+       good<input type="radio" name="feedradio" value="good">
+       Perfect<input type="radio" name="feedradio" value="Perfect">
+    </section>
 
-<p>Give your feedback.</p>
+    <p>Give your feedback.</p>
 
-<textarea form="comform" name="comment" placeholder="feedback here. " required rows="4"
-    cols="50"></textarea>
+    <textarea form="comform" name="comment" placeholder="feedback here. " required rows="4"
+        cols="50"></textarea>
 
-<section class="submit-reset">
-    <input type="submit" name="submit" value="submit">
-    <input type="reset" name="reset" value="reset">
-</section>
+    <section class="submit-reset">
+        <input type="submit" name="submit" value="submit">
+        <input type="reset" name="reset" value="reset">
+    </section>
 
 
 
