@@ -866,7 +866,8 @@ img {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 20%;
+    justify-content: space-between;
+
   }
 
   

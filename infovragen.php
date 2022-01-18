@@ -47,10 +47,29 @@
                 5. toon lijst met informatie over mensen die gender m zijn. (man)<br>
                 6. toon lijst met client id onder de getal 10.<br>
                 7. toon lijst met straatnaam die begint met m.<br>
+                <br>
 
             </P>
 
-           
+            <p>
+                - minimaal één overzicht met gegevens uit één tabel (zonder selectie)<br>
+
+                - minimaal één overzicht met gegevens uit één tabel (met selectie)<br>
+
+                - minimaal één overzicht met gegevens uit meerdere tabellen (zonder selectie)<br>
+
+                - minimaal één overzicht met gegevens uit meerdere tabellen (met selectie op gegevens van minimaal één<br>
+                tabel)
+
+                - minimaal één overzicht dat gebruikt maakt van COUNT of SUM of AVG<br>
+
+                - minimaal één zoekfunctie voor één tabel<br>
+
+
+
+            </p>
+
+
 
 
 
