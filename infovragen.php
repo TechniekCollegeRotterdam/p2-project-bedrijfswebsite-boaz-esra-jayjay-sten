@@ -52,13 +52,46 @@
             </P>
 
             <p>
+
+
+                <b>Boaz</b><br>
+
+                1. toon lijst games met First Person Shooter genre.<br>
+                2. Sorteer producten op releasedatum.<br>
+                3. Toon producten op prijs gesorteerd.<br>
+                4. Toon laptops van Asus<br>
+                5. Sorteer laptops op CPU.<br>
+                6. toon laptops met minder dan 16gb geheugen.<br>
+                7. Sorteer laptops op hardeschijf ruimte.<br>
+                <br>
+
+            </P>
+
+            <p>
+
+
+                <b>Jayjay</b><br>
+
+                1. Toon lijst van producten op basis van productID.<br>
+                2. sorteer producten op aantal verkochte exemplaren.<br>
+                3. Toon lijst van manufactureres op alfabetische volgorde.<br>
+                4. Toon lijst met huisnummers op volgorde.<br>
+                5. Toon lijst met personen die gevestigt zijn in Ridderkerk.<br>
+                6. Toon lijst met e-mails waarin '@gmail.com' in zit.<br>
+                7. Toon lijst met huisnummers boven de 1000.<br>
+                <br>
+
+            </P>
+
+            <p>
                 - minimaal één overzicht met gegevens uit één tabel (zonder selectie)<br>
 
                 - minimaal één overzicht met gegevens uit één tabel (met selectie)<br>
 
                 - minimaal één overzicht met gegevens uit meerdere tabellen (zonder selectie)<br>
 
-                - minimaal één overzicht met gegevens uit meerdere tabellen (met selectie op gegevens van minimaal één<br>
+                - minimaal één overzicht met gegevens uit meerdere tabellen (met selectie op gegevens van minimaal
+                één<br>
                 tabel)
 
                 - minimaal één overzicht dat gebruikt maakt van COUNT of SUM of AVG<br>
