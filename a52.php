@@ -22,9 +22,6 @@
             <button type="submit" value="search">search</button>
         </form>
 
-        
-
-      
 
 
 
@@ -32,7 +29,10 @@
 
 
 
-   <section class="producteninfo">
+
+
+
+        <section class="producteninfo">
 
             <?php
      // leg verbinding met database
@@ -71,56 +71,64 @@
     ?>
 
 
-    </section>
+        </section>
 
-    <p class="beschrijving">
-    
-    </p>
-
-
-    <h2 class="titelklacht">Reviews</h2>
-
-
-<form class="klachtform2" id="comform" method="post" action="reviewresult.php">
-
-    <section class="names">
-        <label name="name">Full name</label>
-        <input type="text" placeholder="John" required name="fname">
-      </section>
-      <section class="date">
-      <label for="purchasedate">Date of Purchase</label>
-      <input type="date" id="purchase" required name="purchasedate">
-    </section>
-    <section class="emails">
-        <label name="mail">Email *</label>
-        <input type="mail" placeholder="Someone@123.com" required name="mail">
-    </section>
-    <section class="radiofeed-btn">
-        <label name="feedradio">How do you experience your product?</label>
-       1 ★<input type="radio" name="feedradio" value="verypoor">
-       2 ★★<input type="radio" name="feedradio" value="poor">
-       3 ★★★<input type="radio" name="feedradio" value="fine">
-       4 ★★★★<input type="radio" name="feedradio" value="good">
-       5 ★★★★★<input type="radio" name="feedradio" value="Perfect">
-    </section>
-
-    <p>Give your feedback.</p>
-
-    <textarea form="comform" name="comment" placeholder="feedback here. " required rows="4"
-        cols="50"></textarea>
-
-    <section class="submit-reset">
-        <input type="submit" name="submit" value="submit">
-        <input type="reset" name="reset" value="reset">
-    </section>
+        <p class="beschrijving">
+            De Samsung Galaxy A52s 256GB Zwart 5G is een middenklasse smartphone met grote rekenkracht. Zo schakel je
+            soepel tussen middelzware apps als YouTube, Netflix en Spotify dankzij de Snapdragon 778G processor en 8 GB
+            werkgeheugen.<br> Op het grote 6,5 inch full hd scherm zie je veel details van je games, films en series.
+            Vanwege het grote formaat bedien je het toestel moeilijk met één hand.<br> Met de camera's achterop maak je
+            scherpe foto's. De 64 megapixel standaard lens heeft optische beeldstabilisatie. Hiermee zijn je foto's
+            minder snel bewogen en daardoor dus ook scherper.<br> Al je foto's en 4K video's bewaar je samen met je apps en
+            andere bestanden op het opslaggeheugen. De 4.500 mAh batterij gaat bij gemiddeld gebruik de hele dag mee.<br> Is
+            de batterij leeg? Geen probleem, want het toestel ondersteunt snelladen op 25W. Volledig opladen duurt dan
+            iets langer dan een uur.<br><br>
+        </p>
 
 
+        <h2 class="titelklacht">Reviews</h2>
+
+
+        <form class="klachtform2" id="comform" method="post" action="reviewresult.php">
+
+            <section class="names">
+                <label name="name">Full name</label>
+                <input type="text" placeholder="John" required name="fname">
+            </section>
+            <section class="date">
+                <label for="purchasedate">Date of Purchase</label>
+                <input type="date" id="purchase" required name="purchasedate">
+            </section>
+            <section class="emails">
+                <label name="mail">Email *</label>
+                <input type="mail" placeholder="Someone@123.com" required name="mail">
+            </section>
+            <section class="radiofeed-btn">
+                <label name="feedradio">How do you experience your product?</label>
+                1 ★<input type="radio" name="feedradio" value="★">
+                2 ★★<input type="radio" name="feedradio" value="★★">
+                3 ★★★<input type="radio" name="feedradio" value="★★★">
+                4 ★★★★<input type="radio" name="feedradio" value="★★★★">
+                5 ★★★★★<input type="radio" name="feedradio" value="★★★★★">
+            </section>
+
+            <p>Give your feedback.</p>
+
+            <textarea form="comform" name="comment" placeholder="feedback here. " required rows="4"
+                cols="50"></textarea>
+
+            <section class="submit-reset">
+                <input type="submit" name="submit" value="submit">
+                <input type="reset" name="reset" value="reset">
+            </section>
 
 
 
 
 
-</form>
+
+
+        </form>
 
 
 

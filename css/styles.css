@@ -538,8 +538,11 @@ img {
   }
  
   body {
-    margin: 0;
-    position: relative;
+    
+      min-height: 100vh;
+
+    
+
   }
 
   /* footer desktop */
@@ -568,6 +571,7 @@ img {
     padding-top: 2%;
     width: 100%;
     padding-left: 2%;
+    margin-top: auto;
 
   }
 
@@ -579,7 +583,6 @@ img {
   .footer-web {
     display: flex;
     background-color: #0083c0;
-    
    max-height: 20vh;
    margin-top: auto;
    position: relative;

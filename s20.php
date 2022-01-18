@@ -22,9 +22,6 @@
             <button type="submit" value="search">search</button>
         </form>
 
-        
-
-      
 
 
 
@@ -32,7 +29,10 @@
 
 
 
-   <section class="producteninfo">
+
+
+
+        <section class="producteninfo">
 
             <?php
      // leg verbinding met database
@@ -71,56 +71,65 @@
     ?>
 
 
-    </section>
+        </section>
 
-    <p class="beschrijving">
-    
-    </p>
-
-
-    <h2 class="titelklacht">Reviews</h2>
-
-
-<form class="klachtform2" id="comform" method="post" action="reviewresult.php">
-
-    <section class="names">
-        <label name="name">Full name</label>
-        <input type="text" placeholder="John" required name="fname">
-      </section>
-      <section class="date">
-      <label for="purchasedate">Date of Purchase</label>
-      <input type="date" id="purchase" required name="purchasedate">
-    </section>
-    <section class="emails">
-        <label name="mail">Email *</label>
-        <input type="mail" placeholder="Someone@123.com" required name="mail">
-    </section>
-    <section class="radiofeed-btn">
-        <label name="feedradio">How do you experience your product?</label>
-       1 ★<input type="radio" name="feedradio" value="verypoor">
-       2 ★★<input type="radio" name="feedradio" value="poor">
-       3 ★★★<input type="radio" name="feedradio" value="fine">
-       4 ★★★★<input type="radio" name="feedradio" value="good">
-       5 ★★★★★<input type="radio" name="feedradio" value="Perfect">
-    </section>
-
-    <p>Give your feedback.</p>
-
-    <textarea form="comform" name="comment" placeholder="feedback here. " required rows="4"
-        cols="50"></textarea>
-
-    <section class="submit-reset">
-        <input type="submit" name="submit" value="submit">
-        <input type="reset" name="reset" value="reset">
-    </section>
+        <p class="beschrijving">
+            Op het 128GB opslaggeheugen van de Samsung Galaxy S20 FE 128GB Blauw 5G heb je genoeg ruimte voor je apps en
+            foto's.<br> Het instapmodel uit de S20 serie heeft een 6,5 inch full hd scherm dat 120 keer per seconde
+            ververst. Hierdoor gaan animaties in bijvoorbeeld games of het scrollen door je tijdlijn erg vloeiend.<br> Het
+            formaat is prettig wanneer je een film kijkt, maar je bedient het toestel lastig met één hand. Deze
+            smartphone ondersteunt 5G, waardoor je klaar bent voor de toekomst met dit nieuwe, snelle mobiele netwerk.<br>
+            De grote 4.500 mAh batterij gaat bij normaal gebruik ruim een dag mee zonder tussentijds opladen. Je laadt
+            het toestel binnen anderhalf uur weer volledig op.<br> Met de krachtige Snapdragon 865 processor en 6 GB
+            werkgeheugen kan het toestel zware taken als 3D games probleemloos aan.<br> Achter op deze S20 Fan Edition
+            zitten naast de 12 megapixel standaard lens ook een 12 megapixel groothoeklens en een 8 megapixel telelens.
+            Met die laatste camera zoom je tot 3 keer in, terwijl je foto net zo scherp blijft.<br><br>
+        </p>
 
 
+        <h2 class="titelklacht">Reviews</h2>
+
+
+        <form class="klachtform2" id="comform" method="post" action="reviewresult.php">
+
+            <section class="names">
+                <label name="name">Full name</label>
+                <input type="text" placeholder="John" required name="fname">
+            </section>
+            <section class="date">
+                <label for="purchasedate">Date of Purchase</label>
+                <input type="date" id="purchase" required name="purchasedate">
+            </section>
+            <section class="emails">
+                <label name="mail">Email *</label>
+                <input type="mail" placeholder="Someone@123.com" required name="mail">
+            </section>
+            <section class="radiofeed-btn">
+                <label name="feedradio">How do you experience your product?</label>
+                1 ★<input type="radio" name="feedradio" value="★">
+                2 ★★<input type="radio" name="feedradio" value="★★">
+                3 ★★★<input type="radio" name="feedradio" value="★★★">
+                4 ★★★★<input type="radio" name="feedradio" value="★★★★">
+                5 ★★★★★<input type="radio" name="feedradio" value="★★★★★">
+            </section>
+
+            <p>Give your feedback.</p>
+
+            <textarea form="comform" name="comment" placeholder="feedback here. " required rows="4"
+                cols="50"></textarea>
+
+            <section class="submit-reset">
+                <input type="submit" name="submit" value="submit">
+                <input type="reset" name="reset" value="reset">
+            </section>
 
 
 
 
 
-</form>
+
+
+        </form>
 
 
 
