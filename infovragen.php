@@ -65,8 +65,6 @@
 
                 - minimaal één zoekfunctie voor één tabel<br>
 
-
-
             </p>
 
 
