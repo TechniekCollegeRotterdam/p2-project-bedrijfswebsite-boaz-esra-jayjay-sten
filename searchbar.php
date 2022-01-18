@@ -15,10 +15,10 @@
     <?php include 'nav.html'?>
 
     <main class="result-page">
-        <form class="searchbar-mobile" method="post" action="searchbar.php">
-            <input type="text" placeholder="search..." name="search">
-            <button type="submit" value="search">search</button>
-        </form>
+    <form class="searchbar-mobile" method="post" action="searchbar.php">
+      <input type="text" placeholder="search..." name="search">
+      <button type="submit" value="search">search</button>
+    </form>
 
         <section class="phonephp">
 
@@ -57,6 +57,8 @@
          echo "<br>";
          echo "price: " . "$" . $data["price"];
          echo "<br>";
+         echo "<a href=".$data["url"] .">Go to product </a>";
+         echo "<br>";
 
          $name = $data["model"];
          // Make lower case
@@ -77,9 +79,7 @@
 
     ?>
 
-
-
-
+    
         </section>
 
 

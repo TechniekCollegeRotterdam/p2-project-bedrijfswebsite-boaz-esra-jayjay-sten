@@ -35,8 +35,6 @@
             <section class="names">
                 <label name="name">Firstname *</label>
                 <input type="text" placeholder="John" required name="fname">
-            </section>
-            <section class="names">
                 <label name="name">Lastname *</label>
                 <input type="text" placeholder="Doe" required name="lname">
             </section>

@@ -19,6 +19,7 @@
       <input type="text" placeholder="search..." name="search">
       <button type="submit" value="search">search</button>
     </form>
+<<<<<<< HEAD
 
     <section class="saturn-logo">
       <img src="images/saturnus-logo.png">
@@ -68,6 +69,91 @@
     //Convert whitespaces and underscore to dash
     $url = preg_replace("/[\s]/", "-", $url);
     echo "<img src=\"images/" . $url . ".jpg\" alt=\"" . $name . "\">";
+=======
+
+    <section class="saturn-logo">
+      <img src="images/saturnus-logo.png">
+    </section>
+
+    <section class="index-title">
+      <h1>Most popular products!</h1>
+    </section>
+
+    <?php
+    require_once("dbconnsaturnus.php");
+
+    $query = $db->prepare("SELECT COUNT(productID) FROM products");
+    $query->execute();
+    $resultcount = $query->fetchAll(PDO::FETCH_ASSOC);
+
+    foreach ($resultcount as $count) {
+
+
+      echo "Total products: " . $count["COUNT(productID)"];
+     
+ 
+   }
+
+
+
+
+
+    ?>
+
+
+    <section class="index-sold">
+
+    <?php
+
+    
+     
+   // leg verbinding met database
+   require_once("dbconnsaturnus.php");
+
+   $query = $db->prepare("SELECT * FROM products WHERE sold > '5000'");
+   $query->execute();
+   $resultq = $query->fetchAll(PDO::FETCH_ASSOC);
+
+  //  product echo
+
+  
+
+
+  foreach ($resultq as $data) {
+
+
+     echo "title: " . $data["name"];
+     echo "<br>";
+     echo "manufacturer: " . $data["manufacturer"];
+     echo "<br>";
+     echo "brand: " . $data["brand"];
+     echo "<br>";
+     echo $data["sold"] . " copies sold";
+     echo "<br>";
+     echo "price: " . "$" . $data["price"];
+     echo "<br>" . "<section></section>";
+     echo "<br>";
+     $name = $data["model"];
+     // Make lower case
+     $url = strtolower($name);
+     //Make alphanumeric
+     $url = preg_replace("/[^a-z0-9\s-]/", "", $url);
+    //Clean up multiple dashes or whitespaces
+    $url = preg_replace("/[\s-]+/", " ", $url);
+    //Convert whitespaces and underscore to dash
+    $url = preg_replace("/[\s]/", "-", $url);
+    echo "<img src=\"images/" . $url . ".jpg\" alt=\"" . $name . "\">";
+    
+     echo "<br>" . "<section></section>";
+
+  }
+
+
+   ?>
+
+
+    </section>
+>>>>>>> f6499c0a725d773088836bf83ac06bf87c0b6a09
     
      echo "<br>" . "<section></section>";
 

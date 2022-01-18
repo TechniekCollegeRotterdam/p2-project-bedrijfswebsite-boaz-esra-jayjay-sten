@@ -14,14 +14,6 @@
 
   <?php include 'nav.html'?>
 
-<<<<<<< HEAD
-  <main class="product-main">
-  <form class="searchbar-mobile" method="post" action="searchbar.php">
-      <input type="text" placeholder="search..." name="search">
-      <button type="submit" value="search">search</button>
-    </form>
-=======
->>>>>>> f6499c0a725d773088836bf83ac06bf87c0b6a09
 
   <main class="product-main">
     <form class="searchbar-mobile" method="post" action="searchbar.php">
@@ -75,12 +67,9 @@
          echo "<br>";
          echo "price: " . "$" . $data["price"];
          echo "<br>";
-<<<<<<< HEAD
-=======
          echo "<a href=".$data["url"] .">Go to product </a>";
          echo "<br>";
          
->>>>>>> f6499c0a725d773088836bf83ac06bf87c0b6a09
          $name = $data["model"];
          // Make lower case
          $url = strtolower($name);

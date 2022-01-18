@@ -13,6 +13,7 @@
 <body class="laptop.body">
 
   <?php include 'nav.html'?>
+  
 
   <main class="product-main">
     <form class="searchbar-mobile" method="post" action="searchbar.php">
@@ -20,7 +21,27 @@
       <button type="submit" value="search">search</button>
     </form>
 
-    <section class="laptopphp">
+    <section class="filter-flexy">
+
+        <form class="prijsverschil" method="post" action="prijs.php">
+            <input type="number" value="minimum price" required placeholder="minimum price $" name="minimum">
+            <input type="number" value="maximum price" required placeholder="maximum price $" name="maximum">
+            <input type="submit" value="apply" name="verzend">
+        </form>
+
+        
+
+        <form class="alphabet" method="post" action="azlaptop.php">
+            <input type="submit"  value="A - Z" name="A"> 
+        </form>
+        <form class="alphabet" method="post" action="zalaptop.php">
+            <input type="submit"  value="Z - A" name="z"> 
+        </form>
+
+        </section>
+
+      
+    <section class="phonephp">
 
       <?php
      // leg verbinding met database
@@ -49,6 +70,8 @@
          echo "disk: " . $data["space"];
          echo "<br>";
          echo "price: " . "$" . $data["price"];
+         echo "<br>";
+         echo "<a href=".$data["url"] .">Go to product </a>";
          echo "<br>";
          $name = $data["model"];
          // Make lower case

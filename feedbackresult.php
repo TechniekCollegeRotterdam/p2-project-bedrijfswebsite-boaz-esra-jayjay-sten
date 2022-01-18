@@ -23,6 +23,7 @@
     <?php
 
 if(isset($_POST["submit"])) {
+<<<<<<< HEAD
     echo "Feedback received :).";
     echo "<br>";
 
@@ -61,6 +62,42 @@ if(isset($_POST["submit"])) {
 
 
 
+=======
+  echo "Feedbaack received!";
+  echo "<br>";
+
+  if(isset($_POST["fname"])) {
+      echo "<br>";
+      $message = $_POST['fname'];
+      echo "First name = " . $message;
+  }
+
+  if(isset($_POST["lname"])) {
+      echo "<br>";
+      $message = $_POST['lname'];
+      echo "Last name = " . $message;
+  }
+
+  if(isset($_POST["mail"])) {
+      echo "<br>";
+      $message = $_POST['mail'];
+      echo "E-mail = " . $message;
+  }
+
+  if(isset($_POST["feedradio"])) {
+      echo "<br>";
+      $message = $_POST['feedradio'];
+      echo "You choose = " . $message;
+  }
+
+ 
+
+}
+
+?>
+
+  
+>>>>>>> f6499c0a725d773088836bf83ac06bf87c0b6a09
 
   </main>
 
