@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Games</title>
+    <title>Phones</title>
     <link id="pagestyle" rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,15 +15,15 @@
     <?php include 'nav.html'?>
 
     <main class="phone-main">
-    <form class="searchbar-mobile" method="post" action="searchbar.php">
-      <input type="text" placeholder="search..." name="search">
-      <button type="submit" value="search">search</button>
-    </form>
+        <form class="searchbar-mobile" method="post" action="searchbar.php">
+            <input type="text" placeholder="search..." name="search">
+            <button type="submit" value="search">search</button>
+        </form>
 
         <section class="phonephp">
 
-    
-     <?php
+
+            <?php
      // leg verbinding met database
      require_once("dbconnsaturnus.php");
 
