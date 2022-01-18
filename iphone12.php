@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Iphone 12</title>
+    <title>Apple Iphone 12</title>
     <link id="pagestyle" rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -99,11 +99,11 @@
     </section>
     <section class="radiofeed-btn">
         <label name="feedradio">How do you experience your product?</label>
-       1 ★<input type="radio" name="feedradio" value="verypoor">
-       2 ★★<input type="radio" name="feedradio" value="poor">
-       3 ★★★<input type="radio" name="feedradio" value="fine">
-       4 ★★★★<input type="radio" name="feedradio" value="good">
-       5 ★★★★★<input type="radio" name="feedradio" value="Perfect">
+       1 ★<input type="radio" name="feedradio" value="★">
+       2 ★★<input type="radio" name="feedradio" value="★★">
+       3 ★★★<input type="radio" name="feedradio" value="★★★">
+       4 ★★★★<input type="radio" name="feedradio" value="★★★★">
+       5 ★★★★★<input type="radio" name="feedradio" value="★★★★★">
     </section>
 
     <p>Give your feedback.</p>
