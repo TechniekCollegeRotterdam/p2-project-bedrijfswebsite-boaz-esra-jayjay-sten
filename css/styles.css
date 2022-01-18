@@ -23,7 +23,7 @@
 }
 
 .topnav-right {
-  float: right;
+  
 }
 
 .active {
@@ -571,6 +571,10 @@ img {
 
   }
 
+  .infovragen {
+    color: yellow;
+  }
+
 
   .footer-web {
     display: flex;
@@ -688,9 +692,11 @@ img {
   /* searchbar */
 
   .searchbar {
-    position: absolute;
-    margin-left: 40%;
+    position: relative;
+    margin-right: 4%;
     margin-top: 0.75%;
+    
+    float: right;
   }
 
   .searchbar-mobile {
@@ -852,6 +858,16 @@ img {
     flex-direction: column;
     justify-content: space-evenly;
     
+  }
+
+  /* infovragen */
+
+  .infovragenflex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
   }
 
   
