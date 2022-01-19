@@ -723,7 +723,6 @@ img {
     position: relative;
     margin-right: 4%;
     margin-top: 0.75%;
-    
     float: right;
   }
 
@@ -741,6 +740,10 @@ img {
     padding-left: 2%;
     
 
+  }
+
+  button {
+    cursor: pointer;
   }
 
   /* resultpage */
@@ -914,6 +917,8 @@ img {
     padding-top: 8%;
     
   }
+
+
 
 
 
