@@ -683,6 +683,11 @@ img {
     justify-content: right;
   }
 
+  .klacht {
+    margin-bottom: 10%;
+    padding-left: 2%;
+  }
+
 
   
  
@@ -818,6 +823,8 @@ img {
   .submit-reset {
     padding-top: 3%;
   }
+
+
 
 
 
