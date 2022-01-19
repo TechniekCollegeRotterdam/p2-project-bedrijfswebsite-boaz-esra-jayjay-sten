@@ -14,7 +14,7 @@
 
 
 
-<body class="overonsbody">
+<body>
 
     <?php include 'nav.html'?>
 
