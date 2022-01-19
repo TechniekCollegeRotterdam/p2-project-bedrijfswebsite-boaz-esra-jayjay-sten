@@ -332,6 +332,31 @@
   
 }
 
+/* over-ons */
+
+.personel-pictures {
+  padding-left: 2%;
+  padding-right: 2%;
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+
+.txt-container-ons {
+  padding-top: 15%;
+  padding-left: 0.2%;
+  padding-right: 2%;
+  display: flex;
+ flex-direction: column;
+  
+}
+
+.overonsbody {
+  width: 100%;
+  height: 100%;
+}
+
 
 
 }
@@ -874,7 +899,21 @@ img {
 
   }
 
+  /* over-ons */
+
+  .personel-pictures {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    padding-top: 5%;
+    
+  }
   
+  .txt-container-ons {
+    margin-bottom: 20%;
+    padding-top: 8%;
+    
+  }
 
 
 

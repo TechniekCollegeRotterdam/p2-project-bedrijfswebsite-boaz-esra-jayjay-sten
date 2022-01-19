@@ -2,26 +2,70 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>Home</title>
-    <link id="pagestyle" rel="stylesheet" type="text/css" href="css/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
 
 </head>
 
-<body>
+
+
+
+<body class="overonsbody">
 
     <?php include 'nav.html'?>
 
-    <p>
 
+    <main class="product-main">
+        <form class="searchbar-mobile" method="post" action="searchbar.php">
+            <input type="text" placeholder="search..." name="search">
+            <button type="submit" value="search">search</button>
+        </form>
+
+
+       
+        <section class="personel-pictures">
+            <figure>
+            <img src="personel-img/sten.jpg">
+            <figcaption>Sten (CEO)</figcaption>
+            </figure>
+
+            <figure>
+            <img src="personel-img/boaz.jpg">
+            <figcaption>Boaz (stock manager)</figcaption>
+            </figure>
+
+            <figure>
+            <img src="personel-img/jayjay.jpg">
+            <figcaption>Jayjay (Head of marketing)</figcaption>
+            </figure>
+
+            <figure>
+            <img src="personel-img/ezra.jpg">
+            <figcaption>Esra (Designer)</figcaption>
+            </figure>
+
+
+
+
+
+            <p id="txt-overons">
+      
+
+        </section>
+
+        <section class="txt-container-ons">
+
+        <h2>The goal.</h2>
         We started with the web shop because nowadays many web shops are published that are not reliable, so that's
         why we wanted to change that.
         We have paid a lot of attention to our website by always working together because that is very important.<br>
         Its difficult sides were certainly with the build-up.
         We got some of our inspiration from the media market. There are several branches in the world.
-        We also really like gaming and that's how we defined our offer.
+        We also really like gaming and that's how we defined our offer.<br>
         Our web shop is unique because we are very young entrepreneurs who have a lot of experience with gaming and
         what kind of games or digital devices are in demand these days.<br>
         We are very honest about the products, which is unfortunately not often the case these days. We are also
@@ -32,20 +76,18 @@
 
 
 
+        </p>
 
 
+        </section>
 
-
-    </p>
-
-
-
-
-
+        
+        
+        
 
     </main>
 
-    <?php include 'footer.html'?>
+    <?php include 'footer.html'; ?>
 
 
 </body>
