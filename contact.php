@@ -24,16 +24,11 @@
             <input type="text" placeholder="search..." name="search">
             <button type="submit" value="search">search</button>
         </form>
-<<<<<<< HEAD
-
-
-=======
         
 
 
         <section class=".con-conflex">
 
->>>>>>> f6499c0a725d773088836bf83ac06bf87c0b6a09
 
         <section class="con-con">
             <section class="contact-items">
@@ -51,27 +46,6 @@
                         allowfullscreen="" loading="lazy">
                     </iframe>
                 </section>
-<<<<<<< HEAD
-                <section class="klacht">
-                    <h2 class="titelklacht">Complaints?</h2>
-
-                    <P class="titelklacht">Don't worry! You can send a complaint here!</P>
-                    <a href="klacht.php">File a complaint</a>
-                </section>
-                <section class="klacht">
-                    <h2 class="titelklacht">Feedback on our website</h2>
-
-                    <P class="titelklacht">We want to improve!</P>
-                    <a href="feedback.php">Don't be shy. Please give us feedback.</a>
-                </section>
-                <section class="klacht">
-                    <h2 class="titelklacht">Review</h2>
-
-                    <P class="titelklacht">Tell us, don't hesitate!</P>
-                    <a href="opinion.php">Comment</a>
-                </section>
-=======
->>>>>>> f6499c0a725d773088836bf83ac06bf87c0b6a09
             </section>
 
 
