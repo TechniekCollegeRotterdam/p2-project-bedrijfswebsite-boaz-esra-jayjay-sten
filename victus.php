@@ -22,16 +22,6 @@
             <button type="submit" value="search">search</button>
         </form>
 
-
-
-
-
-
-
-
-
-
-
         <section class="producteninfo">
 
             <?php
@@ -77,8 +67,6 @@
      }
 
     ?>
-
-
         </section>
 
         <p class="beschrijving">
@@ -92,7 +80,6 @@
             Dankzij het IPS scherm heb je een brede kijkhoek en een realistische kleurweergave.<br>
 
         </p>
-
 
         <h2 class="titelklacht">Reviews</h2>
 
@@ -119,11 +106,14 @@
                 4 ★★★★<input type="radio" name="feedradio" value="★★★★">
                 5 ★★★★★<input type="radio" name="feedradio" value="★★★★★">
             </section>
+            <section class="feedback">
+                <p>Give your feedback.</p>
 
-            <p>Give your feedback.</p>
+                <textarea form="comform" name="comment" placeholder="feedback here. " required rows="4"
+                    cols="50"></textarea>
+            </section>
 
-            <textarea form="comform" name="comment" placeholder="feedback here. " required rows="4"
-                cols="50"></textarea>
+
 
             <section class="submit-reset">
                 <input type="submit" name="submit" value="submit">

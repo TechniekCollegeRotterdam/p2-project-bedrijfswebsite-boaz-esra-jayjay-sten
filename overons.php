@@ -59,7 +59,8 @@
 
         <section class="txt-container-ons">
 
-        <h2>The goal.</h2>
+        <h2>The goal</h2>
+        
         We started with the web shop because nowadays many web shops are published that are not reliable, so that's
         why we wanted to change that.
         We have paid a lot of attention to our website by always working together because that is very important.<br>

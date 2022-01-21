@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .titelklacht {
@@ -202,7 +203,7 @@
 
   .footer-web {
     display: flex;
-   background-color: #0083c0;
+    background-color: #29146e;
      
    margin-top: auto;
    position: relative;
@@ -272,30 +273,15 @@
 
   .searchbar-mobile {
     display: flex;
-<<<<<<< HEAD
-    margin-top: 5px;
-    justify-content: center;
-
-=======
     padding-top: -3%;
    margin-top: 3px;
    justify-content: center;
   
->>>>>>> f6499c0a725d773088836bf83ac06bf87c0b6a09
   }
 
   /* laptops */
 
   .laptopphp {
-<<<<<<< HEAD
-    margin-bottom: 12%;
-    padding-top: 2%;
-    padding-left: 5%;
-    padding-right: 5%;
-    background-color: #e2e2e2;
-    margin-left: 5%;
-    margin-right: 5%;
-=======
     padding-top: 5%;
     padding-left: 3%;
 
@@ -319,18 +305,22 @@
 
   .names {
     padding-bottom: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
-  .email {
+  .emails {
     padding-bottom: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
   .date {
     padding-bottom: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
   .telform {
     padding-bottom: 3%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
   .submit-reset {
@@ -339,6 +329,7 @@
 
   .titleklacht {
     padding-top: 4%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
   /* index */
@@ -371,59 +362,7 @@
   justify-content: space-evenly;
   
 }
->>>>>>> f6499c0a725d773088836bf83ac06bf87c0b6a09
 
-<<<<<<< HEAD
-  }
-
-  /* resultpage */
-
-  .result-page {
-    height: 100%;
-    margin-bottom: 80%;
-    padding-right: 2%;
-  }
-
-  /* klachten */
-  .klachtform {
-    display: flex;
-    flex-direction: column;
-    padding-right: 60%;
-  }
-
-  .names {
-    padding-bottom: 5%;
-  }
-
-  .email {
-    padding-bottom: 5%;
-  }
-
-  .telform {
-    padding-bottom: 3%;
-  }
-
-  .submit-reset {
-    padding-top: 3%;
-  }
-
-  .titleklacht {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-top: 4%;
-  }
-
-  /* index */
-
-  .index-sold {
-    padding-left: 2%;
-    margin-bottom: 30%;
-  }
-
-  .saturn-logo {
-    display: flex;
-    justify-content: center;
-  }
-=======
 /* over-ons */
 
 .personel-pictures {
@@ -449,7 +388,6 @@
   height: 100%;
 }
 
->>>>>>> d0f8d96548c8bdbdfae5698ae29d6658e85cbbfa
 
 
 }
@@ -577,18 +515,22 @@ img {
 
 .names {
   padding-bottom: 5%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.email {
+.emails {
   padding-bottom: 5%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .date {
   padding-bottom: 5%;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .telform {
   padding-bottom: 3%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .submit-reset {
@@ -619,25 +561,19 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   
 }
 
 .klachtform2 {
   padding-bottom: 10%;
 }
+.submit{
+  color: #29146e;
+}
 
 
 
-<<<<<<< HEAD
-/* Responsive layout  desktop */
-@media screen and (min-width: 601px) {
-
-  h1 {
-    font-size: 2em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-
-=======
 
 
 
@@ -665,7 +601,6 @@ img {
     font-size: 2em;
   }
  
->>>>>>> f6499c0a725d773088836bf83ac06bf87c0b6a09
   body {
     
       min-height: 100vh;
@@ -711,22 +646,12 @@ img {
 
   .footer-web {
     display: flex;
-<<<<<<< HEAD
     background-color: #29146e;
-
-    max-height: 20vh;
-    margin-top: auto;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-=======
-    background-color: #0083c0;
    max-height: 20vh;
    margin-top: auto;
    position: fixed;
    bottom: 0;
    width: 100%;
->>>>>>> f6499c0a725d773088836bf83ac06bf87c0b6a09
 
 
 
@@ -750,29 +675,29 @@ img {
     display: flex;
     padding-top: 4%;
     padding-left: 2%;
-<<<<<<< HEAD
-    padding-bottom: 5%;
-=======
     position: relative;
     
     
     
     
->>>>>>> f6499c0a725d773088836bf83ac06bf87c0b6a09
   }
+.con-mailto{
+  color: grey;
+}
 
+.con-tel{
+  color: grey;
+}
   .contact-items {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-<<<<<<< HEAD
-
-
-=======
     
     
    
->>>>>>> f6499c0a725d773088836bf83ac06bf87c0b6a09
+  }
+  .klachtphp{
+    color: grey;
   }
 
   .con-links {
@@ -800,8 +725,6 @@ img {
     width: 100%;
   }
 
-<<<<<<< HEAD
-=======
   .asideklacht {
     display: flex;
     flex-direction: column;
@@ -812,26 +735,14 @@ img {
   
  
   
->>>>>>> f6499c0a725d773088836bf83ac06bf87c0b6a09
 
   /* producten */
 
   .product-main {
-<<<<<<< HEAD
-    margin-bottom: 12%;
-    padding-top: 2%;
-    padding-left: 5%;
-    padding-right: 5%;
-    background-color: #e2e2e2;
-    margin-top: 2%;
-    margin-right: 5%;
-    margin-left: 5%;
-=======
     margin-bottom: auto;
    padding-left: 2%;
    padding-right: 2%;
    
->>>>>>> f6499c0a725d773088836bf83ac06bf87c0b6a09
 
   }
 
@@ -839,11 +750,8 @@ img {
     height: 110px;
     margin-top: 1px;
   }
-<<<<<<< HEAD
-=======
 
 
->>>>>>> f6499c0a725d773088836bf83ac06bf87c0b6a09
 
 
   /* phones */
@@ -852,17 +760,9 @@ img {
     margin-bottom: 12%;
     padding-top: 2%;
     padding-left: 5%;
-<<<<<<< HEAD
-    padding-right: 5%;
-    background-color: #e2e2e2;
-    margin-top: 2%;
-    margin-right: 5%;
-    margin-left: 5%;
-=======
     padding-right: 2%;
     margin-bottom: 12%;
     
->>>>>>> f6499c0a725d773088836bf83ac06bf87c0b6a09
   }
 
 
@@ -887,16 +787,6 @@ img {
   /* laptops */
 
   .laptopphp {
-<<<<<<< HEAD
-    margin-bottom: 12%;
-    padding-top: 0%;
-    padding-left: 0%;
-    padding-right: 0%;
-    background-color: #e2e2e2;
-    margin-top: 0%;
-    margin-right: 1%;
-    margin-left: 1%;
-=======
 
     padding-top: 2%;
     margin-bottom: 12%;
@@ -904,7 +794,6 @@ img {
     padding-left: 2%;
     
 
->>>>>>> f6499c0a725d773088836bf83ac06bf87c0b6a09
   }
 
   /* overons */
@@ -945,21 +834,12 @@ img {
     justify-content: space-evenly;
     align-items: flex-end;
     border-style: solid;
-<<<<<<< HEAD
-    background-color: #724cf0;
-    padding: 2%;
-  }
-
-  /* index */
-
-=======
-    border-color: #0083C0;
+    background-color: #29146e;
     padding: 2%;
   }
    
   /* index */
   
->>>>>>> f6499c0a725d773088836bf83ac06bf87c0b6a09
   .index-title {
     display: flex;
     justify-content: center;
@@ -969,53 +849,6 @@ img {
   .saturn-logo {
     display: flex;
     justify-content: center;
-<<<<<<< HEAD
-
-  }
-
-  .product-index {
-    padding-bottom: 15%;
-    padding-top: 2%;
-    padding-left: 5%;
-    padding-right: 5%;
-  }
-
-
-  /* klachten */
-
-  .klachtform {
-    display: flex;
-    flex-direction: column;
-    padding-right: 60%;
-    padding-top: 5%;
-    padding-bottom: 8%;
-  }
-
-  .names {
-    margin-top: 5%;
-  }
-
-  .email {
-    margin-top: 5%;
-    margin-left: 5%;
-
-  }
-
-  .emails {
-    margin-top: 5%;
-    margin-left: 5%;
-    margin-bottom: 5%;
-  }
-
-  .telform {
-    margin-top: 5%;
-    margin-left: 9%;
-    margin-bottom: 5%;
-  }
-
-  .submit-reset {
-    padding-top: 3%;
-=======
   
   }
 
@@ -1025,7 +858,6 @@ img {
       padding-left: 5%;
       padding-right: 5%;
       height: auto;
->>>>>>> f6499c0a725d773088836bf83ac06bf87c0b6a09
   }
 
 
@@ -1040,24 +872,28 @@ img {
 
   .names {
     padding-bottom: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
-  .email {
+  .emails {
     padding-bottom: 5%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
   .date {
     padding-bottom: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
   .telform {
     padding-bottom: 3%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
   .submit-reset {
     padding-top: 3%;
+    font-family: 'Tahoma';
   }
-
 
 
 
@@ -1108,7 +944,7 @@ img {
     flex-direction: row-reverse;
     justify-content: left;
     padding-top: 5%;
-   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
   .producteninfo img {
@@ -1118,6 +954,7 @@ img {
 
   .beschrijving {
     padding-top: 2%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
   .klachtform2 {
@@ -1128,6 +965,7 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
   }
 
@@ -1151,12 +989,25 @@ img {
     
   }
   
-  .txt-container-ons {
+ 
+
+.feedback p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.txt-container-ons {
+  margin-top: 2%;
+  margin-bottom: 12%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #e2e2e2;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+/* .txt-container-ons 
     margin-bottom: 20%;
     padding-top: 8%;
     
-  }
-
-
-
-}
+  }*/
