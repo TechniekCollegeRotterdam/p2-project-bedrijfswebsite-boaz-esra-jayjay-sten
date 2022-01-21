@@ -688,6 +688,9 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 .con-tel{
   color: grey;
 }
+.color{
+  color: gray;
+}
   .contact-items {
     display: flex;
     flex-direction: column;
