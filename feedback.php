@@ -35,13 +35,8 @@
             <section class="names">
                 <label name="name">Firstname *</label>
                 <input type="text" placeholder="John" required name="fname">
-<<<<<<< HEAD
-            </section>
-            <section class="names">
-=======
               </section>
               <section class="names">
->>>>>>> f6499c0a725d773088836bf83ac06bf87c0b6a09
                 <label name="name">Lastname *</label>
                 <input type="text" placeholder="Doe" required name="lname">
             </section>
@@ -49,8 +44,6 @@
                 <label name="mail">Email *</label>
                 <input type="mail" placeholder="Someone@123.com" required name="mail">
             </section>
-<<<<<<< HEAD
-=======
             <section class="radiofeed-btn">
                 <label name="feedradio">How do you experience our website?</label>
                very poor<input type="radio" name="feedradio" value="verypoor">
@@ -58,7 +51,6 @@
                fine<input type="radio" name="feedradio" value="fine">
                good<input type="radio" name="feedradio" value="good">
             </section>
->>>>>>> f6499c0a725d773088836bf83ac06bf87c0b6a09
 
             <p>Give your feedback.</p>
 

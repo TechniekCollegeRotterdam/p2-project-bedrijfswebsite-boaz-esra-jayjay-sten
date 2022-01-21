@@ -23,15 +23,6 @@
         </form>
 
 
-
-
-
-
-
-
-
-
-
         <section class="producteninfo">
 
             <?php

@@ -3,16 +3,12 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/styles.css" type="text/css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Complaint</title>
-
+    <link rel="stylesheet" href="css/styles.css">
 
 </head>
-
-
-
 
 <body>
 
@@ -28,21 +24,28 @@
 
 
         <h1 class="titelklacht">File a complaint</h1>
+<br>
+<br>
 
 
-        <form class="klachtform" id="comform" method="post" action="klachtresult.php">
+        <form class="klachtformj" id="comform" method="post" action="klachtresult.php">
 
-            <section class="names">
+            <section class="name">
                 <label name="name">Firstname *</label>
                 <input type="text" placeholder="John" required name="fname">
+               </section> 
+
+               <section class="lastname">
                 <label name="name">Lastname *</label>
                 <input type="text" placeholder="Doe" required name="lname">
             </section>
-            <section class="email">
+
+            <section class=" email">
                 <label name="mail">Email *</label>
                 <input type="mail" placeholder="Someone@123.com" required name="mail">
             </section>
-            <section class="telform">
+
+            <section class=" telform">
                 <label name="tel">Tel *</label>
                 <input type="tel" placeholder="+31 6 123456789" required name="tel">
             </section>

@@ -113,11 +113,15 @@
             </section>
 
         
-            <textarea form="comform" name="comment" placeholder="feedback here. " required rows="4"
-                cols="50"></textarea>
+            <section class="feedback">
+                <p>Give your feedback.</p>
 
-            <section class="submit-reset">
-                <label>Give your feedback. </label>
+                <textarea form="comform" name="comment" placeholder="feedback here. " required rows="4"
+                    cols="50"></textarea>
+            </section>
+
+
+            <section class="submit-reset">            
                 <input type="submit" name="submit" value="submit">
                 <input type="reset" name="reset" value="reset">
             </section>

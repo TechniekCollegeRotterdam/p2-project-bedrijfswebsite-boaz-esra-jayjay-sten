@@ -28,10 +28,20 @@
   font-size: 17px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
-.topnav-right {
-  
+.name{
+  padding-bottom: 2%;
 }
+.lastname{
+  padding-bottom: 2%;
+}
+.email{
+  padding-bottom: 2%;
+  margin-left: 2%;
+}
+.telform{
+  margin-left: 4%;
+}
+
 
 .active {
   background-color: #29146e;
@@ -303,26 +313,6 @@
     padding-right: 60%;
   }
 
-  .names {
-    padding-bottom: 5%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-
-  .emails {
-    padding-bottom: 5%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-
-  .date {
-    padding-bottom: 5%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-
-  .telform {
-    padding-bottom: 3%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-
   .submit-reset {
     padding-top: 3%;
   }
@@ -362,7 +352,12 @@
   justify-content: space-evenly;
   
 }
-
+.klachtform {
+    display: flex;
+    flex-direction: column;
+    padding-right: 60%;
+    padding-top: 5%;
+  }
 /* over-ons */
 
 .personel-pictures {
@@ -379,7 +374,7 @@
   padding-left: 0.2%;
   padding-right: 2%;
   display: flex;
- flex-direction: column;
+  flex-direction: column;
   
 }
 
@@ -388,6 +383,23 @@
   height: 100%;
 }
 
+.name{
+  padding-bottom: 2%;
+}
+.lastname{
+  padding-bottom: 2%;
+}
+.email{
+  padding-bottom: 4%;
+  margin-left: 2%;
+}
+.telform{
+  margin-left: 4%;
+  padding-bottom: 4%;
+}
+.names{
+margin-left: 3%;
+}
 
 
 }
@@ -513,25 +525,7 @@ img {
   padding-top: 5%;
 }
 
-.names {
-  padding-bottom: 5%;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
 
-.emails {
-  padding-bottom: 5%;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.date {
-  padding-bottom: 5%;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.telform {
-  padding-bottom: 3%;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
 
 .submit-reset {
   padding-top: 3%;
@@ -572,29 +566,29 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #29146e;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.name{
+  padding-bottom: 2%;
+}
+.lastname{
+  padding-bottom: 2%;
+}
+.email{
+  padding-bottom: 4%;
+  margin-left: 2%;
+}
+.telform{
+  margin-left: 4%;
+  padding-bottom: 4%;
+}
+.names{
+margin-left: 3%;
+}
 
 }
 
 
-
-
-
 /* Responsive layout  desktop */
+
 @media screen and (min-width: 989px) {
 
   h1 {
@@ -603,10 +597,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  
   body {
     
-      min-height: 100vh;
-
-    
-
+   min-height: 100vh;
   }
 
   /* footer desktop */
@@ -735,9 +726,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
 
-  
  
-  
 
   /* producten */
 
@@ -866,33 +855,14 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
   /* klachten */
 
-  .klachtform {
+.klachtform {
     display: flex;
     flex-direction: column;
     padding-right: 60%;
     padding-top: 5%;
   }
 
-  .names {
-    padding-bottom: 5%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-
-  .emails {
-    padding-bottom: 5%;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-
-  .date {
-    padding-bottom: 5%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-
-  .telform {
-    padding-bottom: 3%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-
+ 
   .submit-reset {
     padding-top: 3%;
     font-family: 'Tahoma';
@@ -936,10 +906,29 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     flex-direction: row;
     padding-top: 2%;
     padding-bottom: 2%;
+    margin-left: 4%;
     justify-content: space-between;
   }
 
+  .names {
+    margin-top: 2%;
+    padding-bottom: 2%;
+    margin-left: 4%;
+  }
 
+  .emails {
+    padding-bottom: 2%;
+    margin-left: 5%;
+  }
+
+  .date {
+    padding-bottom: 2%;
+  
+  }
+  .feedback{
+    margin-left: 4%;
+  }
+  
   /* productpaginainfo */
 
   .producteninfo {
@@ -1009,8 +998,4 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin-right: 5%;
   margin-left: 5%;
 }
-/* .txt-container-ons 
-    margin-bottom: 20%;
-    padding-top: 8%;
-    
-  }*/
+}
