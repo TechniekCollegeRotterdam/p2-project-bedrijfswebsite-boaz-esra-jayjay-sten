@@ -24,14 +24,6 @@
 
 
 
-
-
-
-
-
-
-
-
         <section class="producteninfo">
 
             <?php
@@ -120,10 +112,12 @@
                 5 ★★★★★<input type="radio" name="feedradio" value="★★★★★">
             </section>
 
-            <p>Give your feedback.</p>
+            <section class="feedback">
+                <p>Give your feedback.</p>
 
-            <textarea form="comform" name="comment" placeholder="feedback here. " required rows="4"
-                cols="50"></textarea>
+                <textarea form="comform" name="comment" placeholder="feedback here. " required rows="4"
+                    cols="50"></textarea>
+            </section>
 
             <section class="submit-reset">
                 <input type="submit" name="submit" value="submit">

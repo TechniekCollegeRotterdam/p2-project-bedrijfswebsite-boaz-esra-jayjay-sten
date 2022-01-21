@@ -22,16 +22,6 @@
             <button type="submit" value="search">search</button>
         </form>
 
-
-
-
-
-
-
-
-
-
-
         <section class="producteninfo">
 
             <?php
@@ -109,11 +99,12 @@
                 4 ★★★★<input type="radio" name="feedradio" value="★★★★">
                 5 ★★★★★<input type="radio" name="feedradio" value="★★★★★">
             </section>
+            <section class="feedback">
+                <p>Give your feedback.</p>
 
-            <p>Give your feedback.</p>
-
-            <textarea form="comform" name="comment" placeholder="feedback here. " required rows="4"
-                cols="50"></textarea>
+                <textarea form="comform" name="comment" placeholder="feedback here. " required rows="4"
+                    cols="50"></textarea>
+            </section>
 
             <section class="submit-reset">
                 <input type="submit" name="submit" value="submit">
