@@ -5,18 +5,15 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   position: relative;
   min-height: 100vh;
 }
-
 /*Navbar CSS Code*/
 .topnav {
   overflow: hidden;
   background-color: #29146e;
 }
-
 .topnav a {
   float: left;
   display: block;
@@ -27,9 +24,6 @@ body {
   font-size: 17px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
-.topnav-right {}
-
 .active {
   background-color: #29146e;;
   color: white;
@@ -89,71 +83,56 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-
   /*navbar*/
   .topnav a:not(:first-child),
   .dropdown .dropbtn {
     display: none;
   }
-
   .topnav a.icon {
     float: right;
     display: block;
   }
-
   .topnav.responsive {
     position: relative;
   }
-
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
     top: 0;
   }
-
   .topnav.responsive a {
     float: none;
     display: block;
     text-align: left;
   }
-
   .topnav.responsive .dropdown {
     float: none;
   }
-
   .topnav.responsive .dropdown-content {
     position: relative;
   }
-
   .topnav.responsive .dropdown .dropbtn {
     display: block;
     width: 100%;
     text-align: left;
   }
-
   .con-con {
     display: flex;
     padding-top: 10%;
     padding-left: 2%;
-
   }
-
   .contact-items {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
-
   .conimg {
     display: flex;
     padding-bottom: 10%;
-
   }
-
   .helpimg {
     display: none;
   }
-
   iframe {
     display: flex;
     width: 100%;
@@ -161,33 +140,26 @@ body {
     border-style: none;
     padding-top: 2%;
   }
-
   /* productimg */
   img {
     height: 80px;
   }
-
   /* footer */
-
   .con-info {
     display: flex;
     flex-direction: column;
     padding-top: 1%;
     padding-left: 2%;
   }
-
   .faxfooter {
     color: red;
   }
-
   .mailto {
     color: red;
   }
-
   .tel {
     color: red;
   }
-
   .flex-footer {
     display: flex;
     flex-direction: column;
@@ -203,155 +175,114 @@ body {
     width: 100vw;
     height: auto;
   }
-
   .footer-item1 {
     display: flex;
     flex-direction: row;
     padding-left: 2%;
     bottom: 0;
   }
-
   .footer-item2 {
     display: flex;
     max-width: 100%;
     height: auto;
   }
-
   /* footer */
-
   /* producten */
-
   .product-main {
     padding-bottom: 100%;
     padding-right: 2%;
     padding-left: 2%;
     margin-top: 5%;
   }
-
   /* phones */
-
   .phonephp {
     padding-top: 5%;
     padding-left: 3%;
   }
-
   .phone-main {
     margin-bottom: 100%;
     margin-top: 20%;
     padding-left: 3%;
   }
-
   /* searchbar mobile */
-
   .searchbar {
     display: none;
   }
-
   .searchbar-mobile {
-    display: flex;
-    padding-top: -3%;
+    display: flex;  
     margin-top: 3px;
     justify-content: center;
-
   }
-
   /* laptops */
-
   .laptopphp {
     padding-top: 5%;
     padding-left: 3%;
-
-
   }
-
   /* resultpage */
-
   .result-page {
     height: 100%;
     margin-bottom: 80%;
     padding-right: 2%;
   }
-
   /* klachten */
   .klachtform {
     display: flex;
     flex-direction: column;
     padding-right: 60%;
   }
-
   .names {
     padding-bottom: 5%;
   }
-
   .email {
     padding-bottom: 5%;
   }
-
   .date {
     padding-bottom: 5%;
   }
-
   .telform {
     padding-bottom: 3%;
   }
-
   .submit-reset {
     padding-top: 3%;
   }
-
   .titleklacht {
     padding-top: 4%;
   }
-
   /* index */
-
   .index-sold {
     padding-left: 2%;
     margin-bottom: 30%;
   }
-
   .saturn-logo {
     display: flex;
     justify-content: center;
   }
-
-
   /* searchbar */
-
   .searchbar {
     display: none;
   }
-
   /* filter */
   .prijsverschil {
     padding-top: 2%;
   }
-
   .radiofeed-btn {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-
   }
-
   /* over-ons */
-
   .personel-pictures {
     padding-left: 2%;
     padding-right: 2%;
     display: flex;
     flex-direction: column;
-
-
   }
-
   .txt-container-ons {
     padding-top: 15%;
     padding-left: 0.2%;
     padding-right: 2%;
     display: flex;
     flex-direction: column;
-
   }
 
   .overonsbody {
@@ -361,20 +292,12 @@ body {
 
 }
 
-
-
 /* Responsive layout ipad */
-
 @media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
 and (orientation : portrait) {
-
 body {
  overflow-x: hidden;
- 
 }
-
 /*navbar*/
 .topnav a:not(:first-child),
 .dropdown .dropbtn {
@@ -395,32 +318,26 @@ body {
   right: 0;
   top: 0;
 }
-
 .topnav.responsive a {
   float: none;
   display: block;
   text-align: left;
 }
-
 .topnav.responsive .dropdown {
   float: none;
 }
-
 .topnav.responsive .dropdown-content {
   position: relative;
 }
-
 .topnav.responsive .dropdown .dropbtn {
   display: block;
   width: 100%;
   text-align: left;
 }
-
 .con-con {
   display: flex;
   padding-top: 10%;
   padding-left: 2%;
-
 }
 
 .contact-items {
@@ -432,9 +349,7 @@ body {
 .conimg {
   display: flex;
   padding-bottom: 10%;
-
 }
-
 .helpimg {
   display: none;
 }
@@ -451,9 +366,7 @@ iframe {
 img {
   height: 80px;
 }
-
 /* footer */
-
 .con-info {
   display: flex;
   flex-direction: column;
@@ -488,7 +401,6 @@ img {
   width: 100vw;
   height: auto;
 }
-
 .footer-item1 {
   display: flex;
   flex-direction: row;
@@ -512,9 +424,7 @@ img {
   padding-left: 2%;
   margin-top: 5%;
 }
-
 /* phones */
-
 .phonephp {
   padding-top: 5%;
   padding-left: 3%;
@@ -525,30 +435,21 @@ img {
   margin-top: 20%;
   padding-left: 3%;
 }
-
 /* searchbar mobile */
-
 .searchbar {
   display: none;
 }
 
 .searchbar-mobile {
   display: flex;
-  padding-top: -3%;
   margin-top: 3px;
   justify-content: center;
-
 }
-
 /* laptops */
-
 .laptopphp {
   padding-top: 5%;
   padding-left: 3%;
-
-
 }
-
 /* resultpage */
 
 .result-page {
@@ -587,47 +488,36 @@ img {
 .titleklacht {
   padding-top: 4%;
 }
-
 /* index */
-
 .index-sold {
   padding-left: 2%;
   margin-bottom: 30%;
 }
-
 .saturn-logo {
   display: flex;
   justify-content: center;
 }
-
 
 /* searchbar */
 
 .searchbar {
   display: none;
 }
-
 /* filter */
 .prijsverschil {
   padding-top: 2%;
 }
-
 .radiofeed-btn {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-
 }
-
 /* over-ons */
-
 .personel-pictures {
   padding-left: 2%;
   padding-right: 2%;
   display: flex;
   flex-direction: column;
-
-
 }
 
 .txt-container-ons {
@@ -636,24 +526,16 @@ img {
   padding-right: 2%;
   display: flex;
   flex-direction: column;
-
 }
 
 .overonsbody {
   width: 100%;
   height: 100%;
 }
-
 }
-
-
-
-
 
 /* Responsive layout  desktop */
 @media screen and (min-width: 989px) {
- 
-
   h1 {
     font-size: 2em;
   }
@@ -661,27 +543,21 @@ img {
   body {
     min-height: 100vh;
   }
-
   /* footer desktop */
-
   .con-info {
     display: flex;
     flex-direction: column;
     color: aqua;
   }
-
   .faxfooter {
     color: rgb(255, 255, 255);
   }
-
   .mailto {
     color: rgb(255, 255, 255);
   }
-
   .tel {
     color: rgb(255, 255, 255);
   }
-
   .flex-footer {
     display: flex;
     flex-direction: row;
@@ -690,31 +566,23 @@ img {
     width: 100%;
     padding-left: 2%;
     margin-top: auto;
-
   }
-
   .infovragen {
     color: rgb(255, 255, 255);
   }
-
-
   .footer-web {
     max-height: 20vh;
     background-color: #29146e;
     width: 100%;
   }
-
   .footer-item2 {
     display: flex;
     max-width: 100%;
     height: auto;
 
   }
-
   /* footer desktop */
-
   /* contact page */
-
   .con-con {
     display: flex;
     padding-top: 4%;
@@ -734,7 +602,6 @@ img {
     flex-direction: column;
     padding-top: 5%;
   }
-
   .conimg {
     display: flex;
     flex-direction: row;
@@ -742,29 +609,24 @@ img {
     padding-top: 5%;
     justify-content: space-around;
   }
-
   .loc {
     padding-top: 2%;
   }
-
   iframe {
     padding-left: 1%;
     border-style: none;
     width: 100%;
   }
-
   .asideklacht {
     display: flex;
     flex-direction: column;
     justify-content: right;
   }
-
   .klacht {
     margin-bottom: 14%;
     padding-left: 2%;
   }
   /* producten */
-
   .product-main {
     margin-bottom: auto;
     padding-left: 2%;
@@ -776,7 +638,6 @@ img {
     margin-top: 1px;
   }
   /* phones */
-
   .phonephp {
     padding-top: 2%;
     padding-left: 5%;
@@ -784,42 +645,32 @@ img {
     margin-bottom: 12%;
     background-color: #e2e2e2;
   }
-
   /* searchbar */
-
   .searchbar {
     position: relative;
     margin-right: 4%;
     margin-top: 0.75%;
     float: right;
   }
-
   .searchbar-mobile {
     display: none;
   }
-
   /* laptops */
-
   .laptopphp {
     padding-top: 2%;
     margin-bottom: 12%;
     padding-right: 2%;
     padding-left: 2%;
   }
-
   button {
     cursor: pointer;
   }
-
   /* resultpage */
-
   .result-page {
     height: 100%;
     margin-bottom: 20%;
   }
-
   /* flex-mostsoldproducts */
-
   .index-sold {
     position: relative;
     display: flex;
@@ -830,20 +681,16 @@ img {
     border-color: #0083C0;
     padding: 2%;
   }
-
   /* index */
-
   .index-title {
     display: flex;
     justify-content: center;
     margin-bottom: 2%;
   }
-
   .saturn-logo {
     display: flex;
     justify-content: center;
   }
-
   .product-index {
     padding-bottom: 15%;
     padding-top: 2%;
@@ -851,7 +698,6 @@ img {
     padding-right: 5%;
     height: auto;
   }
-
   /* klachten */
   .klachtform {
     display: flex;
@@ -859,49 +705,38 @@ img {
     padding-right: 60%;
     padding-top: 5%;
   }
-
   .names {
     padding-bottom: 5%;
   }
-
   .email {
     padding-bottom: 5%;
   }
-
   .date {
     padding-bottom: 5%;
   }
-
   .telform {
     padding-bottom: 3%;
   }
-
   .submit-reset {
     padding-top: 3%;
   }
-
   /* filter */
-
   .prijsverschil {
     padding-top: 2%;
     padding-left: 5%;
   }
-
   .filter-flexy {
     display: flex;
   }
-
   .alphabet {
     padding-top: 2%;
     padding-left: 0.5%;
   }
-
   /* feedback */
   .feedback-link {
     padding-top: 5%;
     margin-bottom: 15px;
   }
-
   .radiofeed-btn {
     display: flex;
     flex-direction: row;
@@ -909,7 +744,6 @@ img {
     padding-bottom: 2%;
     justify-content: space-between;
   }
-
   /* productpaginainfo */
   .producteninfo {
     display: flex;
@@ -917,25 +751,20 @@ img {
     justify-content: left;
     padding-top: 5%;
   }
-
   .producteninfo img {
     height: 220px;
   }
-
   .beschrijving {
     padding-top: 2%;
   }
-
   .klachtform2 {
     padding-bottom: 15%;
   }
-
   .radiofeed-btn {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
   }
-
   /* infovragen */
   .infovragenflex {
     display: flex;
@@ -943,7 +772,6 @@ img {
     flex-wrap: wrap;
     justify-content: space-between;
   }
-
   /* over-ons */
   .personel-pictures {
     display: flex;
@@ -951,28 +779,21 @@ img {
     gap: 5%;
     padding-top: 5%;
   }
-
   .txt-container-ons {
     margin-bottom: 20%;
     padding-top: 8%;
-    
   }
-
    /* animation */
-
    .words {
     color: rgb(117, 110, 110);
     font-size: 0;
     line-height: 1.5;
-    
   }
-  
   .words span {
     font-size: 5rem;
     display: inline-block;
     animation: move 3s ease-in-out infinite;
   }
-
   .logo.is-animetion {
     margin-top: 0.6em;
     font-size: 2rem;
@@ -994,7 +815,6 @@ img {
     span:nth-of-type(7){ animation-delay: 0.6s; }
     span:nth-of-type(8){ animation-delay: 0.7s; }
   }
-  
   @keyframes wave-text{
     00%{
       transform: translateY(0em);
@@ -1006,10 +826,5 @@ img {
       transform: translateY(0em);
     }
   }
-  
- 
-  
- 
-  
   
 }
