@@ -1,49 +1,77 @@
-<!--This script makes sure that our HamburgerMenu is Responsive and Functions as it should, no matter what happens!-->
-  <script>
-    function myFunction() {
-      var x = document.getElementById("myTopnav");
-      if (x.className === "topnav") {
-        x.className += " responsive";
-      } else {
-        x.className = "topnav";
-      }
-    }
-  </script>
 
-<!--Hier begint de content van de Navbar-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link id="pagestyle" rel="stylesheet" type="text/css" href="css/styles.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  
+
+
+  <!--This script makes sure that our HamburgerMenu is Responsive and Functions as it should, no matter what happens!-->
+<script>
+
+
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+
+  
+
+  
+</script>
+
+</head>
+
+
+
+<body>
   <nav class="topnav" id="myTopnav">
     <a href="index.php">Home</a>
-    <div class="dropdown">
+    <nav class="dropdown">
       <button class="dropbtn">Portables
         <i class="fa fa-caret-down"></i>
       </button>
-      <div class="dropdown-content">
+      <nav class="dropdown-content">
         <a href="phones.php">Telefoons</a>
-      </div>
-    </div>
-    <div class="dropdown">
+      </nav>
+    </nav>
+    <nav class="dropdown">
       <button class="dropbtn">Computers
         <i class="fa fa-caret-down"></i>
       </button>
-      <div class="dropdown-content">
+      <nav class="dropdown-content">
         <a href="laptops.php">Laptops</a> 
-      </div>
-    </div>
-    <div class="dropdown">
+      </nav>
+    </nav>
+    <nav class="dropdown">
       <button class="dropbtn">Media
         <i class="fa fa-caret-down"></i>
       </button>
-      <div class="dropdown-content">
+      <nav class="dropdown-content">
         <a href="gamelist.php">Games</a>
-      </div>
-    </div>
+      </nav>
+    </nav>
     
-    <div class="topnav-right">
+    <nav class="topnav-right">
       <a href="contact.php">Contact</a>
       <a href="overons.php">Over ons</a>
-  
+      
+
+
       <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-    </div>
+    </nav>
    
 
     <form class="searchbar" method="post" action="searchbar.php">
@@ -52,3 +80,11 @@
     </form>
   
   </nav>
+  
+  
+</body>
+</html>
+
+
+
+
