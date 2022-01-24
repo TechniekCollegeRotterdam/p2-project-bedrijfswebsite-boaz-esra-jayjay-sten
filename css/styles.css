@@ -667,6 +667,7 @@ img {
   .con-info {
     display: flex;
     flex-direction: column;
+    color: aqua;
   }
 
   .faxfooter {
