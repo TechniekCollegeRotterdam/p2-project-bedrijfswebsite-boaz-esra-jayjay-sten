@@ -14,7 +14,7 @@ body {
 /*Navbar CSS Code*/
 .topnav {
   overflow: hidden;
-  background-color: #0083c0;
+  background-color: #29146e;
 }
 
 .topnav a {
@@ -25,12 +25,13 @@ body {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .topnav-right {}
 
 .active {
-  background-color: #004175;
+  background-color: #29146e;;
   color: white;
 }
 
@@ -195,7 +196,7 @@ body {
   }
   .footer-web {
     display: flex;
-    background-color: #0083c0;
+    background-color: #29146e;
     margin-top: auto;
     position: absolute;
     bottom: 0;
@@ -480,7 +481,7 @@ img {
 }
 .footer-web {
   display: flex;
-  background-color: #0083c0;
+  background-color: #29146e;
   margin-top: auto;
   position: absolute;
   bottom: 0;
@@ -669,15 +670,15 @@ img {
   }
 
   .faxfooter {
-    color: red;
+    color: rgb(255, 255, 255);
   }
 
   .mailto {
-    color: red;
+    color: rgb(255, 255, 255);
   }
 
   .tel {
-    color: red;
+    color: rgb(255, 255, 255);
   }
 
   .flex-footer {
@@ -692,14 +693,13 @@ img {
   }
 
   .infovragen {
-    color: yellow;
+    color: rgb(255, 255, 255);
   }
 
 
   .footer-web {
     max-height: 20vh;
-    background-color: #0083c0;
-    
+    background-color: #29146e;
     width: 100%;
   }
 
@@ -781,6 +781,7 @@ img {
     padding-left: 5%;
     padding-right: 2%;
     margin-bottom: 12%;
+    background-color: #e2e2e2;
   }
 
   /* searchbar */
@@ -953,6 +954,7 @@ img {
   .txt-container-ons {
     margin-bottom: 20%;
     padding-top: 8%;
+    
   }
 
    /* animation */
