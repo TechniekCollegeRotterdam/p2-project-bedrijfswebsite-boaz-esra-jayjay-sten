@@ -20,18 +20,16 @@
       <button type="submit" value="search">search</button>
     </form>
 
-    
-      <section class="words word-1">
-        <span>S</span>
-        <span>A</span>
-        <span>T</span>
-        <span>U</span>
-        <span>R</span>
-        <span>N</span>
-        <span>U</span>
-        <span>S</span>
-      </section>
-   
+    <div class="logo is-animetion">
+      <span>S</span>
+      <span>A</span>
+      <span>T</span>
+      <span>U</span>
+      <span>R</span>
+      <span>N</span>
+      <span>U</span>
+      <span>S</span>
+    </div>
 
     <section class="index-title">
       <h1>Most popular products!</h1>
