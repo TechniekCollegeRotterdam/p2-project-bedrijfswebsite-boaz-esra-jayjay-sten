@@ -51,7 +51,11 @@
       echo "Review Score = " . $message;
   }
 
- 
+  if(isset($_POST["comment"])) {
+    echo "<br>";
+    $message = $_POST['comment'];
+    echo "Message = " . $message;
+}
 
 }
 
