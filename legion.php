@@ -131,19 +131,11 @@
                 <input type="reset" name="reset" value="reset">
             </section>
 
-
-
-
-
-
-
         </form>
-
-
 
     </main>
 
-    <?php include 'footer.html'?>
+    <?php include 'footer.html' ?>
 
 
 </body>

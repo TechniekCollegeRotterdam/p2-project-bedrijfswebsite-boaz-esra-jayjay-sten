@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+body {
+  position: relative;
+  min-height: 100vh;
+}
+
 /*Navbar CSS Code*/
 .topnav {
   overflow: hidden;
@@ -189,15 +194,11 @@
   .footer-web {
     display: flex;
    background-color: #0083c0;
-     
    margin-top: auto;
-   position: relative;
+   position: absolute;
    bottom: 0;
    width: 100vw;
    height: auto;
-
-
-  
   }
   
   .footer-item1 {
@@ -420,11 +421,9 @@ img {
  background-color: #0083c0;
  max-height: 25vh;
  margin-top: auto;
- position: fixed;
+ position: absolute;
  bottom: 0;
  width: 100%;
-
-
 
 }
 
@@ -534,25 +533,7 @@ img {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
-
-
-
 
 
 /* Responsive layout  desktop */
@@ -563,11 +544,7 @@ img {
   }
  
   body {
-    
       min-height: 100vh;
-
-    
-
   }
 
   /* footer desktop */
@@ -610,21 +587,14 @@ img {
     background-color: #0083c0;
    max-height: 20vh;
    margin-top: auto;
-   position: fixed;
+   position: absolute;
    bottom: 0;
-   width: 100%;
-
-
-
+   width: 100vw;
   }
-
-  
-
   .footer-item2 {
     display: flex;
     max-width: 100%;
     height: auto;
-   
 
   }
 
@@ -636,10 +606,7 @@ img {
     display: flex;
     padding-top: 4%;
     padding-left: 2%;
-    position: relative;
-    
-    
-    
+    position: relative;   
     
   }
 
@@ -647,9 +614,7 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
-    
-   
+
   }
 
   .con-links {
@@ -689,9 +654,7 @@ img {
   }
 
 
-  
- 
-  
+
 
   /* producten */
 
@@ -743,8 +706,6 @@ img {
     margin-bottom: 12%;
     padding-right: 2%;
     padding-left: 2%;
-    
-
   }
 
   button {
@@ -824,11 +785,6 @@ img {
     padding-top: 3%;
   }
 
-
-
-
-
-
   /* filter */
 
   .prijsverschil {
@@ -847,11 +803,6 @@ img {
     padding-left: 0.5%;
 
   }
-
-
-
-
-
 
   /* feedback */
 
