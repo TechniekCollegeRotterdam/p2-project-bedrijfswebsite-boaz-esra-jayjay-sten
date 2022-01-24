@@ -20,9 +20,18 @@
       <button type="submit" value="search">search</button>
     </form>
 
-    <section class="saturn-logo">
-      <img src="images/saturnus-logo.png">
-    </section>
+    
+      <section class="words word-1">
+        <span>S</span>
+        <span>A</span>
+        <span>T</span>
+        <span>U</span>
+        <span>R</span>
+        <span>N</span>
+        <span>U</span>
+        <span>S</span>
+      </section>
+   
 
     <section class="index-title">
       <h1>Most popular products!</h1>
@@ -52,7 +61,7 @@
 
     <section class="index-sold">
 
-    <?php
+      <?php
 
     
      
@@ -102,7 +111,7 @@
 
 
     </section>
-    
+
 
   </main>
 
