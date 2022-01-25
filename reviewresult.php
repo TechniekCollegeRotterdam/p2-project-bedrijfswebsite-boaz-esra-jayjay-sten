@@ -44,18 +44,18 @@
       echo "Date of Purchase = " . $message;
   }
 
-
   if(isset($_POST["feedradio"])) {
       echo "<br>";
       $message = $_POST['feedradio'];
       echo "Review Score = " . $message;
   }
-
   if(isset($_POST["comment"])) {
     echo "<br>";
     $message = $_POST['comment'];
-    echo "Message = " . $message;
+    echo "Review Score = " . $message;
 }
+
+ 
 
 }
 

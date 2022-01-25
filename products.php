@@ -57,7 +57,7 @@
      foreach ($resultq as $data) {
 
 
-      echo "<fieldset></fieldset>";
+      echo "<br>";
          
          echo "title: " . $data["name"];
          echo "<br>";

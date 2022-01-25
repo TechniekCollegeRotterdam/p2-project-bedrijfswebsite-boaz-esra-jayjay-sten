@@ -44,7 +44,7 @@
 
      foreach ($resultq as $data) {
 
-
+        echo "<br>";
          echo "Title : " . $data["name"];
          echo "<br>";
          echo "manufacturer: " . $data["manufacturer"];
