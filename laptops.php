@@ -53,7 +53,7 @@
 
      foreach ($resultq as $data) {
 
-      echo "<fieldset></fieldset>";
+      echo "<br>";
 
          echo "manufacturer: " . $data["manufacturer"];
          echo "<br>";

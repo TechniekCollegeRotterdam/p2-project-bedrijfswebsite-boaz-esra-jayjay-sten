@@ -2,9 +2,10 @@
 
 * {
   margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
+
+
 body {
   position: relative;
   min-height: 100vh;
@@ -571,6 +572,7 @@ img {
     color: rgb(255, 255, 255);
   }
   .footer-web {
+    position: absolute;
     max-height: 20vh;
     background-color: #29146e;
     width: 100%;
@@ -772,6 +774,19 @@ img {
     flex-wrap: wrap;
     justify-content: space-between;
   }
+  #zoekfuncties {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    padding-top: 10%;
+    margin-bottom: 28%;
+  }
+
+  .resultaten-php {
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: 15%;
+  }
   /* over-ons */
   .personel-pictures {
     display: flex;
@@ -782,6 +797,11 @@ img {
   .txt-container-ons {
     margin-bottom: 20%;
     padding-top: 8%;
+  }
+  .zoekfuncties {
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
   }
    /* animation */
    .words {

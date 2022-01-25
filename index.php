@@ -44,14 +44,9 @@
 
     foreach ($resultcount as $count) {
 
-
       echo "Total products: " . $count["COUNT(productID)"];
      
- 
    }
-
-
-
 
 
     ?>
@@ -61,8 +56,6 @@
 
       <?php
 
-    
-     
    // leg verbinding met database
    require_once("dbconnsaturnus.php");
 
@@ -71,8 +64,6 @@
    $resultq = $query->fetchAll(PDO::FETCH_ASSOC);
 
   //  product echo
-
-  
 
 
   foreach ($resultq as $data) {
