@@ -3,7 +3,9 @@
 * {
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 
 body {
   position: relative;
@@ -193,7 +195,6 @@ body {
     padding-right: 2%;
     padding-left: 2%;
     margin-top: 5%;
-    
   }
   /* phones */
   .phonephp {
@@ -290,9 +291,6 @@ body {
     width: 100%;
     height: 100%;
   }
-
-  /* index */
-
 
 }
 
@@ -495,7 +493,7 @@ img {
 /* index */
 .index-sold {
   padding-left: 2%;
-  margin-bottom: 50%;
+  margin-bottom: 30%;
 }
 .saturn-logo {
   display: flex;

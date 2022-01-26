@@ -90,9 +90,8 @@
     //Convert whitespaces and underscore to dash
     $url = preg_replace("/[\s]/", "-", $url);
     echo "<img src=\"images/" . $url . ".jpg\" alt=\"" . $name . "\">";
-    echo "<br>";
     
-     
+     echo "<br>" . "<section></section>";
 
   }
 
@@ -104,9 +103,8 @@
 
 
   </main>
-  
+
   <?php include 'footer.html'?>
-  
 
 
 </body>

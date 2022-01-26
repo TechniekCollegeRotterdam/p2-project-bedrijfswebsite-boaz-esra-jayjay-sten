@@ -14,7 +14,7 @@
 
   <?php include 'nav.html'?>
 
-  <section class="filter-flexy">
+  <section class="filter-flexy"
 
         <form class="prijsverschil" method="post" action="prijs.php">
             <input type="number" value="minimum price" required placeholder="minimum price $" name="minimum">

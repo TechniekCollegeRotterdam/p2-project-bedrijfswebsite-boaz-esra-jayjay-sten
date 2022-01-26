@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -23,11 +21,11 @@
     </form>
 
         <section class="resultaten-php">
-
+    
         <?php
      // leg verbinding met database
      require_once("dbconnsaturnus.php");
-
+    // Deze Searchbar query is alleen voor de voornaam van mensen
      $query = $db->prepare("SELECT * FROM client WHERE name LIKE '".$_POST['search2']."%' ");
      $query->execute();
      $resultq = $query->fetchAll(PDO::FETCH_ASSOC);
@@ -36,7 +34,6 @@
          echo "<br>";
          echo "name: " . $data["name"];
          echo "<br>";
-        
      }
 
 
