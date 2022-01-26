@@ -22,16 +22,6 @@
             <button type="submit" value="search">search</button>
         </form>
 
-
-
-
-
-
-
-
-
-
-
         <section class="producteninfo">
 
             <?php
