@@ -28,13 +28,15 @@
      // leg verbinding met database
      require_once("dbconnsaturnus.php");
 
-     $query = $db->prepare("SELECT * FROM client WHERE phonenumber LIKE '%".$_POST['search3']."' ");
+     $query = $db->prepare("SELECT * FROM products WHERE genre LIKE '%".$_POST['search3']."%' ");
      $query->execute();
      $resultq = $query->fetchAll(PDO::FETCH_ASSOC);
 
      foreach ($resultq as $data) {
          echo "<br>";
-         echo "number: " . $data["phonenumber"];
+         echo "genre: " . $data["genre"];
+         echo "<br>";
+         echo "title: " . $data["name"];
          echo "<br>";
         
      }
