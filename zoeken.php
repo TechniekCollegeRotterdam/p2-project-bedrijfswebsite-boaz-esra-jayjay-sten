@@ -24,7 +24,7 @@
     </form>
 
     <form class="searchbar2" method="post" action="searchesra.php">
-      <input type="text" placeholder="Esra telnummer" name="search3">
+      <input type="text" placeholder="Esra genre" name="search3">
       <button type="submit" value="search3">search</button>
     </form>
 
