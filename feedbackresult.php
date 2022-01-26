@@ -47,7 +47,7 @@ if(isset($_POST["submit"])) {
   if(isset($_POST["feedradio"])) {
       echo "<br>";
       $message = $_POST['feedradio'];
-      echo "You choose = " . $message;
+      echo "You chose = " . $message;
   }
 
  
