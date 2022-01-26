@@ -23,15 +23,6 @@
         </form>
 
 
-
-
-
-
-
-
-
-
-
         <section class="producteninfo">
 
             <?php
@@ -122,15 +113,7 @@
                 <input type="reset" name="reset" value="reset">
             </section>
 
-
-
-
-
-
-
         </form>
-
-
 
     </main>
 
