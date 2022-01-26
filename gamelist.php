@@ -23,7 +23,7 @@
 
     <section class="filter-flexy">
 
-      <form class="prijsverschil" method="post" action="prijs.php">
+      <form class="prijsverschil" method="post" action="prijsgame.php">
         <input type="number" value="minimum price" required placeholder="minimum price $" name="minimum">
         <input type="number" value="maximum price" required placeholder="maximum price $" name="maximum">
         <input type="submit" value="apply" name="verzend">

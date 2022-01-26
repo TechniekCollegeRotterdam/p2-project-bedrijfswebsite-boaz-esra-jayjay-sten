@@ -22,13 +22,15 @@
 
 
 
-    <form class="prijsverschil" method="post" action="filterlaptop.php">
+    <form class="prijsverschil" method="post" action="prijs.php">
         <input type="number" value="minimum price" required placeholder="minimum price $" name="minimum">
         <input type="number" value="maximum price" required placeholder="maximum price $" name="maximum">
         <input type="submit" value="apply" name="verzend">
     </form>
 
     <section class="laptopphp">
+
+    <section class="margin">
 
       <?php
      // leg verbinding met database
@@ -76,12 +78,8 @@
     ?>
 
     </section>
-
-
-
-
-
   </main>
+  </section>
 
   <?php include 'footer.html'?>
 
